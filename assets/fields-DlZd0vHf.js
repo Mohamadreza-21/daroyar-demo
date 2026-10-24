@@ -1,1 +1,0 @@
-import{s as e}from"./format-CyFAzLTM.js";import{c as t,d as n}from"./client-Cg-m_wQi.js";var r=n().transform(t=>e(t.trim())).pipe(n().regex(/^(\+98|0098|0)?9\d{9}$/,`شمارهٔ موبایل معتبر نیست (مثال: 09123456789)`)),i=n().trim().toLowerCase().pipe(t(`ایمیل معتبر نیست`)),a=e=>n().trim().min(2,`${e} را وارد کنید`).max(60,`حداکثر ۶۰ کاراکتر`);export{a as n,r,i as t};
