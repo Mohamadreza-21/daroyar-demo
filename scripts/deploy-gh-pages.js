@@ -11,7 +11,7 @@ function run(command, args) {
     cwd: root,
     encoding: 'utf8',
     stdio: 'inherit',
-    shell: isWindows,
+    shell: isWindows && /\.(cmd|bat)$/i.test(command),
   })
   if (result.error) throw result.error
   if (result.status !== 0) process.exit(result.status ?? 1)
@@ -27,7 +27,10 @@ if (remoteResult.status !== 0 || !remoteResult.stdout.trim()) {
   process.exit(1)
 }
 
-const remote = remoteResult.stdout.trim().replace(/[?#].*$/, '').replace(/\.git$/, '')
+const remote = remoteResult.stdout
+  .trim()
+  .replace(/[?#].*$/, '')
+  .replace(/\.git$/, '')
 const match = remote.match(/(?:\/|:)([^/:]+)\/([^/:]+)$/)
 if (!match) {
   console.error(`آدرس مخزن از origin تشخیص داده نشد: ${remote}`)
@@ -35,11 +38,14 @@ if (!match) {
 }
 
 const [, owner, repository] = match
-const basePath = process.env.BASE_PATH || (repository.toLowerCase() === `${owner.toLowerCase()}.github.io` ? '/' : `/${repository}/`)
+const basePath =
+  process.env.BASE_PATH || (repository.toLowerCase() === `${owner.toLowerCase()}.github.io` ? '/' : `/${repository}/`)
 
 console.log(`Building GitHub Pages site with base path: ${basePath}`)
 run(npx, ['vite', 'build', '--base', basePath])
 run(process.execPath, ['scripts/spa-fallback.js'])
 run(npx, ['--yes', 'gh-pages', '-d', 'dist'])
 
-console.log(`\nDeploy command completed. Configure GitHub Pages to publish the gh-pages branch at https://${owner}.github.io/${repository.toLowerCase() === `${owner.toLowerCase()}.github.io` ? '' : `${repository}/`}`)
+console.log(
+  `\nDeploy command completed. Configure GitHub Pages to publish the gh-pages branch at https://${owner}.github.io/${repository.toLowerCase() === `${owner.toLowerCase()}.github.io` ? '' : `${repository}/`}`,
+)
