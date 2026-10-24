@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="گیاهان سبز">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff6e2"/><stop offset="1" stop-color="#ffeab8"/></linearGradient></defs>
+<rect width="400" height="400" fill="url(#g)"/>
+<circle cx="300" cy="96" r="70" fill="#fff" opacity=".45"/>
+<ellipse cx="200" cy="332" rx="96" ry="12" fill="#0e2a2f" opacity=".12"/>
+<g transform="translate(0 0) scale(1)"><rect x="100" y="110" width="200" height="180" rx="14" fill="#e0a020"/><rect x="100" y="110" width="200" height="40" rx="14" fill="#0f9d8a"/>
+<rect x="150" y="210" width="100" height="56" rx="10" fill="#fff" opacity=".92"/>
+<text x="200" y="245" text-anchor="middle" font-family="Vazirmatn, Tahoma, 'DejaVu Sans', sans-serif" font-size="22" font-weight="700" fill="#0e2a2f">گیاهان سبز</text></g>
+</svg>

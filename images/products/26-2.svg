@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="بهارین">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#dde1fb"/><stop offset="1" stop-color="#eceefe"/></linearGradient></defs>
+<rect width="400" height="400" fill="url(#g)"/>
+<circle cx="110" cy="110" r="70" fill="#fff" opacity=".45"/>
+<ellipse cx="200" cy="332" rx="96" ry="12" fill="#0e2a2f" opacity=".12"/>
+<g transform="translate(0 0) scale(1)"><rect x="168" y="58" width="64" height="48" rx="10" fill="#f2b84b"/><path d="M178 100h44v26c28 12 40 30 40 56v100a22 22 0 0 1-22 22H160a22 22 0 0 1-22-22V182c0-26 12-44 40-56z" fill="#5b63d3"/>
+<rect x="140" y="210" width="120" height="56" rx="10" fill="#fff" opacity=".92"/>
+<text x="200" y="245" text-anchor="middle" font-family="Vazirmatn, Tahoma, 'DejaVu Sans', sans-serif" font-size="22" font-weight="700" fill="#0e2a2f">بهارین</text></g>
+</svg>
