@@ -14,7 +14,7 @@ import ErrorState from '../../../shared/components/feedback/ErrorState'
 import { PanelOrdersSkeleton } from '../../../shared/components/loaders/PanelSkeletons'
 import { CUSTOMER_CANCELABLE, ORDER_STATUS, PAYMENT_METHODS } from '../../../shared/utils/constants'
 import { formatDate, formatNumber, formatToman } from '../../../shared/utils/format'
-import { handleImgError } from '../../../shared/utils/image'
+import { assetUrl, handleImgError } from '../../../shared/utils/image'
 
 const PAGE_SIZE = 5
 const OCARD_BAR = 'flex flex-wrap items-center justify-between gap-3'
@@ -38,7 +38,7 @@ export const OrderCard = memo(function OrderCard({ order, onCancel }) {
               <img
                 className="size-[52px] rounded-[12px] bg-bg-2 object-contain"
                 onError={handleImgError}
-                src={i.thumbnail}
+                src={assetUrl(i.thumbnail)}
                 alt=""
                 loading="lazy"
               />

@@ -2,7 +2,7 @@ import { useCallback } from 'react'
 import { Link, Navigate, useLocation, useNavigate } from 'react-router'
 import { useForm } from 'react-hook-form'
 import { zodResolver } from '@hookform/resolvers/zod'
-import { Lock, TriangleAlert, User } from 'lucide-react'
+import { Lock, ShieldCheck, TriangleAlert, UserRound } from 'lucide-react'
 import { toast } from 'sonner'
 import { loginSchema } from '../schemas'
 import { useLogin } from '../hooks/useAuthActions'
@@ -12,11 +12,23 @@ import AuthShell from '../components/AuthShell'
 import { Input } from '../../../shared/components/common/Fields'
 import Button from '../../../shared/components/common/Button'
 
-import { DEMO_NOTE, FIELD_ERROR, chipClass } from '../../../shared/components/common/styles'
+import { DEMO_NOTE, FIELD_ERROR } from '../../../shared/components/common/styles'
 
 const DEMOS = [
-  { label: 'مشتری نمونه', username: 'customer', password: 'customer123' },
-  { label: 'مدیر سایت', username: 'admin', password: 'admin1234' },
+  {
+    label: 'مشتری نمونه',
+    description: 'مشاهدهٔ سفارش‌ها و حساب کاربری',
+    username: 'customer',
+    password: 'customer123',
+    icon: UserRound,
+  },
+  {
+    label: 'مدیر نمونه',
+    description: 'ورود به پنل مدیریت فروشگاه',
+    username: 'admin',
+    password: 'admin1234',
+    icon: ShieldCheck,
+  },
 ]
 
 export default function LoginPage() {
@@ -85,7 +97,7 @@ export default function LoginPage() {
         )}
         <Input
           label="نام کاربری یا ایمیل"
-          icon={User}
+          icon={UserRound}
           ltr
           autoComplete="username"
           error={errors.username?.message}
@@ -103,22 +115,45 @@ export default function LoginPage() {
           ورود
         </Button>
       </form>
-      <div className="grid gap-2 rounded-2xl bg-bg px-4 py-3.5 text-[13px]">
-        <p>ورود سریع با حساب نمونه:</p>
-        <div className="flex flex-wrap gap-2">
-          {DEMOS.map((d) => (
-            <button
-              key={d.username}
-              type="button"
-              className={chipClass(false, 'min-h-[34px] px-3.5 text-[13px]')}
-              onClick={() => fill(d)}
-            >
-              {d.label}
-            </button>
-          ))}
+      <section className="grid gap-3 rounded-2xl border border-line bg-bg p-3.5 text-[13px]" aria-label="حساب‌های نمایشی">
+        <div>
+          <h2 className="font-extrabold">حساب‌های آمادهٔ آزمایش</h2>
+          <p className="mt-1 text-muted">برای پرشدن خودکار فرم، یکی از حساب‌ها را انتخاب کنید.</p>
         </div>
-        <small className="text-muted">ورود با حساب‌های نمونه یا حساب‌هایی که ثبت‌نام کرده‌اید انجام می‌شود.</small>
-      </div>
+        <div className="grid gap-2.5 sm:grid-cols-2">
+          {DEMOS.map((d) => {
+            const Icon = d.icon
+            return (
+              <button
+                key={d.username}
+                type="button"
+                className="grid gap-2 rounded-xl border border-line bg-surface p-3.5 text-start [transition:border-color_0.2s,box-shadow_0.2s] hover:border-primary hover:shadow-sm focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary"
+                onClick={() => fill(d)}
+                aria-label={`پرکردن اطلاعات ${d.label}`}
+              >
+                <span className="flex items-center gap-2 font-extrabold text-ink">
+                  <span className="grid size-9 place-items-center rounded-xl bg-primary-50 text-primary-700">
+                    <Icon size={19} aria-hidden="true" />
+                  </span>
+                  {d.label}
+                </span>
+                <span className="text-[12px] text-muted">{d.description}</span>
+                <span className="grid gap-1 border-t border-dashed border-line pt-2">
+                  <span className="flex items-center justify-between gap-2">
+                    <span className="text-muted">نام کاربری</span>
+                    <b dir="ltr" className="font-mono text-ink">{d.username}</b>
+                  </span>
+                  <span className="flex items-center justify-between gap-2">
+                    <span className="text-muted">گذرواژه</span>
+                    <b dir="ltr" className="font-mono text-ink">{d.password}</b>
+                  </span>
+                </span>
+              </button>
+            )
+          })}
+        </div>
+        <small className="text-muted">این حساب‌ها فقط برای آزمایش نمونه‌کار هستند؛ خرید و اطلاعات کاربران واقعی نیست.</small>
+      </section>
     </AuthShell>
   )
 }

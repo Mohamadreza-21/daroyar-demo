@@ -2,7 +2,7 @@ import { memo, useState } from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { FreeMode, Navigation, Thumbs, Zoom } from 'swiper/modules'
 import { formatNumber } from '../../../shared/utils/format'
-import { handleImgError } from '../../../shared/utils/image'
+import { assetUrl, handleImgError } from '../../../shared/utils/image'
 
 const ProductGallery = memo(function ProductGallery({ images, title, discount }) {
   const [thumbs, setThumbs] = useState(null)
@@ -27,7 +27,7 @@ const ProductGallery = memo(function ProductGallery({ images, title, discount })
                 <img
                   className="h-full w-full object-contain p-5"
                   onError={handleImgError}
-                  src={src}
+                  src={assetUrl(src)}
                   alt={`${title} - تصویر ${i + 1}`}
                   loading={i === 0 ? 'eager' : 'lazy'}
                 />
@@ -52,7 +52,7 @@ const ProductGallery = memo(function ProductGallery({ images, title, discount })
               <img
                 className="h-full w-full object-contain p-1.5"
                 onError={handleImgError}
-                src={src}
+                src={assetUrl(src)}
                 alt=""
                 loading="lazy"
               />

@@ -6,27 +6,26 @@ import { hashPassword } from '../../src/mock/lib/passwords.js'
 import { calcTotals, priceAfterDiscount } from '../../src/mock/lib/pricing.js'
 import { ARTICLES } from './articles.js'
 import { buildReviews, CATEGORIES, PRODUCTS, seededRandom } from './products.js'
-import { placeholderSvg, productSvg } from './svg.js'
+import { placeholderSvg } from './svg.js'
+import { PRODUCT_PHOTOS } from './product-images.js'
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..', '..')
 const imagesDir = join(root, 'public', 'images')
-const productsDir = join(imagesDir, 'products')
 const DAY = 86400000
 const now = Date.now()
 const rand = seededRandom(20261019)
 
-rmSync(productsDir, { recursive: true, force: true })
-mkdirSync(productsDir, { recursive: true })
+rmSync(join(imagesDir, 'products'), { recursive: true, force: true })
+mkdirSync(imagesDir, { recursive: true })
 writeFileSync(join(imagesDir, 'placeholder.svg'), placeholderSvg)
+if (PRODUCT_PHOTOS.length !== PRODUCTS.length) {
+  throw new Error(`Expected ${PRODUCTS.length} product photos, received ${PRODUCT_PHOTOS.length}`)
+}
 
 const products = PRODUCTS.map(
   ([title, brand, category, basePrice, discount, stock, rating, tags, description], index) => {
     const id = index + 1
-    const images = [0, 1, 2].map((variant) => {
-      const file = `${id}-${variant + 1}.svg`
-      writeFileSync(join(productsDir, file), productSvg({ category, id, brand, variant }))
-      return `/images/products/${file}`
-    })
+    const thumbnail = PRODUCT_PHOTOS[index]
     return {
       id,
       title,
@@ -41,8 +40,8 @@ const products = PRODUCTS.map(
       reviewCount: 0,
       tags,
       sku: `DR-${String(id).padStart(4, '0')}`,
-      thumbnail: images[0],
-      images,
+      thumbnail,
+      images: [thumbnail],
       createdAt: new Date(now - (PRODUCTS.length - index) * 2 * DAY).toISOString(),
       searchText: buildSearchText(title, brand, tags),
     }

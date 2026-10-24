@@ -8,7 +8,7 @@ import { useCanWish, useIsWished, useToggleWishlist } from '../../wishlist/hooks
 import { useCategoryLabel } from '../hooks/useCatalog'
 import { useAuthStore } from '../../auth/store/authStore'
 import { cn, formatNumber } from '../../../shared/utils/format'
-import { handleImgError } from '../../../shared/utils/image'
+import { assetUrl, handleImgError } from '../../../shared/utils/image'
 
 const WishToggle = memo(function WishToggle({ id }) {
   const active = useIsWished(id)
@@ -74,7 +74,7 @@ const ProductCard = memo(function ProductCard({ product }) {
         <Link to={`/product/${product.id}`} aria-label={product.title} tabIndex={-1} className="block h-full">
           <img
             onError={handleImgError}
-            src={product.thumbnail}
+            src={assetUrl(product.thumbnail)}
             alt={product.title}
             loading="lazy"
             width="320"

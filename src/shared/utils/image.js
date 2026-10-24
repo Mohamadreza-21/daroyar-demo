@@ -4,8 +4,12 @@ const PLACEHOLDER =
     '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120"><rect width="120" height="120" fill="#eef2f3"/><path d="M36 78l16-20 12 14 8-9 12 15z" fill="#c3cdd1"/><circle cx="46" cy="44" r="7" fill="#c3cdd1"/></svg>',
   )
 
-export const assetUrl = (src) =>
-  typeof src === 'string' && src.startsWith('/') ? `${import.meta.env.BASE_URL}${src.slice(1)}` : src
+export const assetUrl = (src) => {
+  if (typeof src !== 'string' || !src.trim()) return PLACEHOLDER
+  if (/^(?:https?:|data:|blob:)/i.test(src)) return src
+  if (src.startsWith('/')) return `${import.meta.env.BASE_URL}${src.slice(1)}`
+  return src
+}
 
 export function handleImgError(event) {
   const img = event.currentTarget

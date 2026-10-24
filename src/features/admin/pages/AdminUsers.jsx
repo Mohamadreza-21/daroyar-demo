@@ -23,7 +23,7 @@ import { AVATAR } from '../../../shared/components/common/Primitives'
 import ErrorState from '../../../shared/components/feedback/ErrorState'
 import { AdminTableSkeleton } from '../../../shared/components/loaders/AdminSkeletons'
 import { cn, formatNumber } from '../../../shared/utils/format'
-import { handleImgError } from '../../../shared/utils/image'
+import { assetUrl, handleImgError } from '../../../shared/utils/image'
 
 const LIMIT = 10
 const ROLE = {
@@ -40,7 +40,7 @@ const Row = memo(function Row({ user }) {
       <td className={TD}>
         <div className={CELL_USER}>
           {user.image ? (
-            <img onError={handleImgError} className={cn(AVATAR, 'shrink-0')} src={user.image} alt="" loading="lazy" />
+            <img onError={handleImgError} className={cn(AVATAR, 'shrink-0')} src={assetUrl(user.image)} alt="" loading="lazy" />
           ) : (
             <span className={cn(AVATAR, 'shrink-0')} aria-hidden="true">
               {user.firstName?.charAt(0)}

@@ -5,7 +5,7 @@ import { useProducts } from '../../../features/catalog/hooks/useCatalog'
 import { Price } from '../common/Primitives'
 import { useDebounce } from '../../hooks/useUtils'
 import { cn } from '../../utils/format'
-import { handleImgError } from '../../utils/image'
+import { assetUrl, handleImgError } from '../../utils/image'
 
 const MIN_CHARS = 2
 const LIMIT = 6
@@ -144,7 +144,7 @@ const SearchBox = memo(function SearchBox() {
               <img
                 className="size-12 shrink-0 rounded-[12px] bg-bg-2 object-contain"
                 onError={handleImgError}
-                src={product.thumbnail}
+                src={assetUrl(product.thumbnail)}
                 alt=""
                 loading="lazy"
               />

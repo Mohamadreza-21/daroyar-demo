@@ -1,6 +1,6 @@
 import { syncAllRatings } from './lib/rating.js'
 
-const STORAGE_KEY = 'darooyar-demo-db-v1'
+const STORAGE_KEY = 'darooyar-demo-db-v2'
 
 let state = null
 

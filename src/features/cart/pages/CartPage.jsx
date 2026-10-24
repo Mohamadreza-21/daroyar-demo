@@ -16,7 +16,7 @@ import CouponBox from '../components/CouponBox'
 import CartLineStatus from '../components/CartLineStatus'
 import ErrorState from '../../../shared/components/feedback/ErrorState'
 import { CartSkeleton } from '../../../shared/components/loaders/PublicSkeletons'
-import { handleImgError } from '../../../shared/utils/image'
+import { assetUrl, handleImgError } from '../../../shared/utils/image'
 
 const Row = memo(function Row({ line, onQty, onRemove }) {
   const { product } = line
@@ -37,7 +37,7 @@ const Row = memo(function Row({ line, onQty, onRemove }) {
         className="size-24 overflow-hidden rounded-[18px] bg-bg-2 max-[721px]:size-20 max-[721px]:[grid-area:img] [&_img]:size-full [&_img]:object-contain"
         aria-label={title}
       >
-        {product && <img onError={handleImgError} src={product.thumbnail} alt="" loading="lazy" />}
+        {product && <img onError={handleImgError} src={assetUrl(product.thumbnail)} alt="" loading="lazy" />}
       </Link>
       <div className="grid min-w-0 gap-1 max-[721px]:[grid-area:info] [&_small]:text-muted">
         <Link to={`/product/${line.id}`} className="font-extrabold leading-[1.6] hover:text-primary-700" dir="auto">

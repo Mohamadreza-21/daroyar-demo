@@ -5,7 +5,7 @@ import { useAuthStore } from '../../../features/auth/store/authStore'
 import LogoutDialog from '../../../features/auth/components/LogoutDialog'
 import { cn, initials } from '../../utils/format'
 import { AVATAR, Breadcrumb } from '../common/Primitives'
-import { handleImgError } from '../../utils/image'
+import { assetUrl, handleImgError } from '../../utils/image'
 
 const AVATAR_LG = cn(AVATAR, 'size-[54px] text-[18px]')
 const LINK =
@@ -19,7 +19,7 @@ const Sidebar = memo(function Sidebar({ links, user, roleLabel, onLogout }) {
     <aside className="sticky top-[calc(var(--header-h)+16px)] grid gap-4 rounded-lg border border-line bg-surface p-[18px] max-[1025px]:static max-[1025px]:p-3">
       <div className="flex items-center gap-3 border-b border-dashed border-line px-2 pt-2 pb-4 max-[1025px]:px-1.5 max-[1025px]:pt-1 max-[1025px]:pb-3">
         {user.image ? (
-          <img onError={handleImgError} className={AVATAR_LG} src={user.image} alt="" />
+          <img onError={handleImgError} className={AVATAR_LG} src={assetUrl(user.image)} alt="" />
         ) : (
           <span className={AVATAR_LG}>{initials(user.firstName, user.lastName)}</span>
         )}

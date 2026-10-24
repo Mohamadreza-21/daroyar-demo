@@ -11,7 +11,7 @@ import CartLineStatus from '../../../features/cart/components/CartLineStatus'
 import { useUiStore } from '../../store/uiStore'
 import { useDialogA11y, useLockBodyScroll } from '../../hooks/useUtils'
 import { cn, formatNumber, formatToman } from '../../utils/format'
-import { handleImgError } from '../../utils/image'
+import { assetUrl, handleImgError } from '../../utils/image'
 
 const DrawerItem = memo(function DrawerItem({ line, onQty, onRemove }) {
   const { product } = line
@@ -29,7 +29,7 @@ const DrawerItem = memo(function DrawerItem({ line, onQty, onRemove }) {
           <img
             className="size-full object-contain"
             onError={handleImgError}
-            src={product.thumbnail}
+            src={assetUrl(product.thumbnail)}
             alt=""
             loading="lazy"
           />

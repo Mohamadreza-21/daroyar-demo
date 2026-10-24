@@ -4,7 +4,7 @@ import { Timer } from 'lucide-react'
 import Button from '../../../shared/components/common/Button'
 import { useCountdown } from '../../../shared/hooks/useUtils'
 import { formatNumber } from '../../../shared/utils/format'
-import { handleImgError } from '../../../shared/utils/image'
+import { assetUrl, handleImgError } from '../../../shared/utils/image'
 
 const Box = memo(function Box({ value, label }) {
   return (
@@ -53,7 +53,7 @@ const OfferBanner = memo(function OfferBanner({ product }) {
             <img
               className="size-[78%] object-contain"
               onError={handleImgError}
-              src={product.thumbnail}
+              src={assetUrl(product.thumbnail)}
               alt={product.title}
               loading="lazy"
             />

@@ -15,7 +15,7 @@ import {
 import { useCategoryLabel } from '../../catalog/hooks/useCatalog'
 import { ORDER_STATUS, PAYMENT_METHODS } from '../../../shared/utils/constants'
 import { formatDateTime, formatNumber, formatToman } from '../../../shared/utils/format'
-import { handleImgError } from '../../../shared/utils/image'
+import { assetUrl, handleImgError } from '../../../shared/utils/image'
 
 const ItemRow = memo(function ItemRow({ item }) {
   const label = useCategoryLabel(item.category)
@@ -25,7 +25,7 @@ const ItemRow = memo(function ItemRow({ item }) {
         <img
           className="size-[52px] rounded-[12px] bg-bg-2 object-contain"
           onError={handleImgError}
-          src={item.thumbnail}
+          src={assetUrl(item.thumbnail)}
           alt=""
           loading="lazy"
         />

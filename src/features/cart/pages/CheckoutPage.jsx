@@ -31,7 +31,7 @@ import ErrorState from '../../../shared/components/feedback/ErrorState'
 import { CheckoutSkeleton } from '../../../shared/components/loaders/PublicSkeletons'
 import { PROVINCES } from '../../../shared/utils/constants'
 import { cn, formatNumber, formatToman, toEnglishDigits } from '../../../shared/utils/format'
-import { handleImgError } from '../../../shared/utils/image'
+import { assetUrl, handleImgError } from '../../../shared/utils/image'
 
 const PAYGRID = 'grid grid-cols-2 gap-3 max-[721px]:grid-cols-1'
 const LEGEND = 'mb-3 p-0 text-[17px]'
@@ -257,7 +257,7 @@ export default function CheckoutPage() {
                     <img
                       className="size-[52px] rounded-[12px] bg-bg-2 object-contain"
                       onError={handleImgError}
-                      src={line.product.thumbnail}
+                      src={assetUrl(line.product.thumbnail)}
                       alt=""
                       loading="lazy"
                     />

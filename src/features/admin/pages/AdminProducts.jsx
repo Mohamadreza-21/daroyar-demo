@@ -34,7 +34,7 @@ import ErrorState from '../../../shared/components/feedback/ErrorState'
 import { AdminTableSkeleton } from '../../../shared/components/loaders/AdminSkeletons'
 import { LOW_STOCK } from '../../../shared/utils/constants'
 import { cn, formatNumber, formatToman, toEnglishDigits } from '../../../shared/utils/format'
-import { handleImgError } from '../../../shared/utils/image'
+import { assetUrl, handleImgError } from '../../../shared/utils/image'
 
 const PAGE_SIZE = 10
 const STOCK_FILTERS = {
@@ -81,7 +81,7 @@ const Row = memo(function Row({ product, onEdit, onDelete, onStock, savingStock 
     <tr className={TR}>
       <td className={TD}>
         <div className={CELL_USER}>
-          <img onError={handleImgError} className={THUMB} src={product.thumbnail} alt="" loading="lazy" />
+          <img onError={handleImgError} className={THUMB} src={assetUrl(product.thumbnail)} alt="" loading="lazy" />
           <div>
             <b
               dir="auto"
