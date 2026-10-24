@@ -1,1 +1,0 @@
-import{c as e}from"./format-CyFAzLTM.js";import{V as t,g as n}from"./index-CPoi42-u.js";var r=e();function i(){return t(`صفحه پیدا نشد`),(0,r.jsx)(n,{status:404})}export{i as default};
