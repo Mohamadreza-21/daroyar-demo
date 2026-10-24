@@ -1,0 +1,48 @@
+{
+  "name": "darooyar-pharmacy-store",
+  "version": "1.0.0",
+  "description": "Darooyar - demo personal-care storefront (React + Tailwind CSS)",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && node scripts/spa-fallback.js",
+    "preview": "vite preview",
+    "seed": "node scripts/seed/index.js",
+    "lint": "eslint .",
+    "format": "prettier --write src scripts"
+  },
+  "type": "module",
+  "dependencies": {
+    "@fontsource-variable/vazirmatn": "^5.3.0",
+    "@hookform/resolvers": "^5.9.2",
+    "@tanstack/react-query": "^5.104.4",
+    "axios": "^1.20.0",
+    "framer-motion": "^14.3.0",
+    "lucide-react": "^1.59.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "react-hook-form": "^7.90.0",
+    "react-router": "^8.4.0",
+    "recharts": "^3.10.1",
+    "sonner": "^2.0.8",
+    "swiper": "^14.3.0",
+    "tailwind-merge": "^3.7.0",
+    "zod": "^4.6.7",
+    "zustand": "^5.0.15"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.5",
+    "@tailwindcss/vite": "^4.3.3",
+    "@vitejs/plugin-react": "^6.1.2",
+    "eslint": "^9.39.5",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "globals": "^17.13.0",
+    "prettier": "^3.9.10",
+    "tailwindcss": "^4.3.3",
+    "vite": "^8.3.4"
+  },
+  "engines": {
+    "node": ">=22.22.0"
+  },
+  "private": true
+}

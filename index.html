@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0b8576" />
+    <meta
+      name="description"
+      content="دارویار یک فروشگاه نمایشی محصولات مراقبتی است که برای نمایش مهارت‌های طراحی و توسعهٔ فرانت‌اند ساخته شده؛ سفارش و پرداخت واقعی نیست."
+    />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%230f9d8a'/%3E%3Cpath d='M26 14h12v12h12v12H38v12H26V38H14V26h12z' fill='%23fff'/%3E%3C/svg%3E"
+    />
+    <title>دارویار | فروشگاه نمایشی محصولات مراقبتی</title>
+    <style>
+      #boot{position:fixed;inset:0;z-index:9999;display:grid;place-content:center;justify-items:center;gap:18px;background:linear-gradient(160deg,#e8f7f4,#fff 60%);transition:opacity .45s ease,visibility .45s}
+      #boot.is-hidden{opacity:0;visibility:hidden}
+      #boot .cross{position:relative;width:54px;height:54px;animation:bootPulse 1.2s ease-in-out infinite}
+      #boot .cross::before,#boot .cross::after{content:"";position:absolute;background:#0b8576;border-radius:6px}
+      #boot .cross::before{inset:0 19px}
+      #boot .cross::after{inset:19px 0;background:#ff7a59}
+      #boot p{margin:0;font:800 22px Tahoma,sans-serif;color:#0e2a2f;letter-spacing:-.3px}
+      @keyframes bootPulse{0%,100%{transform:scale(.9) rotate(0)}50%{transform:scale(1.1) rotate(90deg)}}
+    </style>
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="دارویار | فروشگاه نمایشی محصولات مراقبتی" />
+    <meta property="og:description" content="فروشگاه نمایشی محصولات مراقبتی برای نمایش مهارت‌های فرانت‌اند؛ سفارش و پرداخت واقعی نیست." />
+    <meta property="og:locale" content="fa_IR" />
+  </head>
+  <body>
+    <div id="boot" aria-hidden="true">
+      <div class="cross"></div>
+      <p>دارویار</p>
+    </div>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

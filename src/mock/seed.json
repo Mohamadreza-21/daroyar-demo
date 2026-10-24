@@ -1,0 +1,2528 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "slug": "skin-care",
+      "label": "مراقبت پوست",
+      "tone": "teal",
+      "icon": "Sparkles",
+      "blurb": "کرم، سرم و ضدآفتاب"
+    },
+    {
+      "id": 2,
+      "slug": "beauty",
+      "label": "آرایشی و بهداشتی",
+      "tone": "coral",
+      "icon": "Flower2",
+      "blurb": "لوازم بهداشتی روزمره"
+    },
+    {
+      "id": 3,
+      "slug": "fragrances",
+      "label": "عطر و اسپری",
+      "tone": "indigo",
+      "icon": "SprayCan",
+      "blurb": "خوشبوکننده و اسپری بدن"
+    },
+    {
+      "id": 4,
+      "slug": "groceries",
+      "label": "تغذیه سالم",
+      "tone": "amber",
+      "icon": "Apple",
+      "blurb": "خوراکی‌های سالم و طبیعی"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "title": "کرم مرطوب‌کننده آبرسان ۵۰ میلی‌لیتر",
+      "brand": "درمانوا",
+      "category": "skin-care",
+      "description": "کرم سبک و زودجذب با هیالورونیک‌اسید و گلیسیرین که تا ۲۴ ساعت رطوبت پوست را حفظ می‌کند و حس چسبندگی ندارد.",
+      "basePrice": 420000,
+      "discount": 10,
+      "price": 378000,
+      "stock": 34,
+      "rating": 4.6,
+      "reviewCount": 2,
+      "tags": ["مرطوب‌کننده", "پوست خشک", "آبرسان"],
+      "sku": "DR-0001",
+      "thumbnail": "/images/products/1-1.svg",
+      "images": ["/images/products/1-1.svg", "/images/products/1-2.svg", "/images/products/1-3.svg"],
+      "createdAt": "2026-08-05T13:16:01.570Z",
+      "searchText": "کرم مرطوبکننده ابرسان 50 میلیلیتر درمانوا مرطوبکننده پوست خشک ابرسان کرممرطوبکنندهابرسان50میلیلیتردرمانوامرطوبکنندهپوستخشکابرسان"
+    },
+    {
+      "id": 2,
+      "title": "ضدآفتاب SPF50 فاقد چربی ۵۰ میلی‌لیتر",
+      "brand": "سپیدار",
+      "category": "skin-care",
+      "description": "ضدآفتاب وسیع‌طیف با بافت ژل‌کرمی و بدون رنگ سفید روی پوست؛ مناسب پوست چرب و مستعد جوش.",
+      "basePrice": 650000,
+      "discount": 15,
+      "price": 553000,
+      "stock": 22,
+      "rating": 4.7,
+      "reviewCount": 1,
+      "tags": ["ضدآفتاب", "SPF50", "پوست چرب"],
+      "sku": "DR-0002",
+      "thumbnail": "/images/products/2-1.svg",
+      "images": ["/images/products/2-1.svg", "/images/products/2-2.svg", "/images/products/2-3.svg"],
+      "createdAt": "2026-08-07T13:16:01.570Z",
+      "searchText": "ضدافتاب spf50 فاقد چربی 50 میلیلیتر سپیدار ضدافتاب spf50 پوست چرب ضدافتابspf50فاقدچربی50میلیلیترسپیدارضدافتابspf50پوستچرب"
+    },
+    {
+      "id": 3,
+      "title": "ژل شستشوی صورت پوست چرب",
+      "brand": "آوا",
+      "category": "skin-care",
+      "description": "ژل کف‌کننده ملایم با عصاره سبز چای که چربی اضافی و آلودگی را بدون خشکی پوست پاک می‌کند.",
+      "basePrice": 280000,
+      "discount": 0,
+      "price": 280000,
+      "stock": 48,
+      "rating": 4.4,
+      "reviewCount": 0,
+      "tags": ["شستشوی صورت", "پوست چرب", "ژل"],
+      "sku": "DR-0003",
+      "thumbnail": "/images/products/3-1.svg",
+      "images": ["/images/products/3-1.svg", "/images/products/3-2.svg", "/images/products/3-3.svg"],
+      "createdAt": "2026-08-09T13:16:01.570Z",
+      "searchText": "ژل شستشوی صورت پوست چرب اوا شستشوی صورت پوست چرب ژل ژلشستشویصورتپوستچرباواشستشویصورتپوستچربژل"
+    },
+    {
+      "id": 4,
+      "title": "سرم ویتامین C روشن‌کننده ۳۰ میلی‌لیتر",
+      "brand": "درمانوا",
+      "category": "skin-care",
+      "description": "سرم آنتی‌اکسیدان با ویتامین C پایدار برای کمک به یکنواخت‌تر شدن رنگ پوست و افزایش شادابی.",
+      "basePrice": 980000,
+      "discount": 20,
+      "price": 784000,
+      "stock": 12,
+      "rating": 4.8,
+      "reviewCount": 3,
+      "tags": ["سرم", "ویتامین C", "روشن‌کننده"],
+      "sku": "DR-0004",
+      "thumbnail": "/images/products/4-1.svg",
+      "images": ["/images/products/4-1.svg", "/images/products/4-2.svg", "/images/products/4-3.svg"],
+      "createdAt": "2026-08-11T13:16:01.570Z",
+      "searchText": "سرم ویتامین c روشنکننده 30 میلیلیتر درمانوا سرم ویتامین c روشنکننده سرمویتامینcروشنکننده30میلیلیتردرمانواسرمویتامینcروشنکننده"
+    },
+    {
+      "id": 5,
+      "title": "کرم دور چشم ضدچروک ۱۵ میلی‌لیتر",
+      "brand": "بهارین",
+      "category": "skin-care",
+      "description": "کرم دور چشم سبک با کافئین و پپتید برای کاهش پف و خطوط ریز اطراف چشم.",
+      "basePrice": 560000,
+      "discount": 5,
+      "price": 532000,
+      "stock": 0,
+      "rating": 4.3,
+      "reviewCount": 3,
+      "tags": ["دور چشم", "ضدچروک", "کافئین"],
+      "sku": "DR-0005",
+      "thumbnail": "/images/products/5-1.svg",
+      "images": ["/images/products/5-1.svg", "/images/products/5-2.svg", "/images/products/5-3.svg"],
+      "createdAt": "2026-08-13T13:16:01.570Z",
+      "searchText": "کرم دور چشم ضدچروک 15 میلیلیتر بهارین دور چشم ضدچروک کافئین کرمدورچشمضدچروک15میلیلیتربهاریندورچشمضدچروککافئین"
+    },
+    {
+      "id": 6,
+      "title": "تونر پاک‌کننده بدون الکل ۲۰۰ میلی‌لیتر",
+      "brand": "زلال",
+      "category": "skin-care",
+      "description": "تونر ملایم با عصاره بابونه که پس از شستشو پوست را متعادل کرده و برای مرحلهٔ بعدی آماده می‌کند.",
+      "basePrice": 310000,
+      "discount": 0,
+      "price": 310000,
+      "stock": 27,
+      "rating": 4.5,
+      "reviewCount": 3,
+      "tags": ["تونر", "بدون الکل", "پوست حساس"],
+      "sku": "DR-0006",
+      "thumbnail": "/images/products/6-1.svg",
+      "images": ["/images/products/6-1.svg", "/images/products/6-2.svg", "/images/products/6-3.svg"],
+      "createdAt": "2026-08-15T13:16:01.570Z",
+      "searchText": "تونر پاککننده بدون الکل 200 میلیلیتر زلال تونر بدون الکل پوست حساس تونرپاککنندهبدونالکل200میلیلیترزلالتونربدونالکلپوستحساس"
+    },
+    {
+      "id": 7,
+      "title": "ماسک صورت خاک رس سبز ۱۰۰ میلی‌لیتر",
+      "brand": "گلبرگ",
+      "category": "skin-care",
+      "description": "ماسک پاک‌کنندهٔ منافذ با خاک رس سبز و عصارهٔ آلوئه‌ورا؛ هفته‌ای یک تا دو بار مصرف شود.",
+      "basePrice": 240000,
+      "discount": 12,
+      "price": 211000,
+      "stock": 8,
+      "rating": 4.2,
+      "reviewCount": 4,
+      "tags": ["ماسک صورت", "خاک رس", "پاکسازی عمیق"],
+      "sku": "DR-0007",
+      "thumbnail": "/images/products/7-1.svg",
+      "images": ["/images/products/7-1.svg", "/images/products/7-2.svg", "/images/products/7-3.svg"],
+      "createdAt": "2026-08-17T13:16:01.570Z",
+      "searchText": "ماسک صورت خاک رس سبز 100 میلیلیتر گلبرگ ماسک صورت خاک رس پاکسازی عمیق ماسکصورتخاکرسسبز100میلیلیترگلبرگماسکصورتخاکرسپاکسازیعمیق"
+    },
+    {
+      "id": 8,
+      "title": "کرم روشن‌کننده و ضدلک ۳۰ میلی‌لیتر",
+      "brand": "نیلوفر",
+      "category": "skin-care",
+      "description": "کرم با نیاسینامید و عصارهٔ شیرین‌بیان برای کمک به کاهش ظاهر لک‌های سطحی و یکدست‌سازی پوست.",
+      "basePrice": 720000,
+      "discount": 18,
+      "price": 590000,
+      "stock": 15,
+      "rating": 4.4,
+      "reviewCount": 2,
+      "tags": ["ضدلک", "روشن‌کننده", "نیاسینامید"],
+      "sku": "DR-0008",
+      "thumbnail": "/images/products/8-1.svg",
+      "images": ["/images/products/8-1.svg", "/images/products/8-2.svg", "/images/products/8-3.svg"],
+      "createdAt": "2026-08-19T13:16:01.570Z",
+      "searchText": "کرم روشنکننده و ضدلک 30 میلیلیتر نیلوفر ضدلک روشنکننده نیاسینامید کرمروشنکنندهوضدلک30میلیلیترنیلوفرضدلکروشنکنندهنیاسینامید"
+    },
+    {
+      "id": 9,
+      "title": "بالم لب نرم‌کننده SPF15",
+      "brand": "آرمانا",
+      "category": "skin-care",
+      "description": "بالم مغذی با کره شی و موم زنبور عسل که لب‌های خشک را نرم کرده و در برابر آفتاب محافظت می‌کند.",
+      "basePrice": 95000,
+      "discount": 0,
+      "price": 95000,
+      "stock": 120,
+      "rating": 4.6,
+      "reviewCount": 2,
+      "tags": ["بالم لب", "SPF15", "نرم‌کننده"],
+      "sku": "DR-0009",
+      "thumbnail": "/images/products/9-1.svg",
+      "images": ["/images/products/9-1.svg", "/images/products/9-2.svg", "/images/products/9-3.svg"],
+      "createdAt": "2026-08-21T13:16:01.570Z",
+      "searchText": "بالم لب نرمکننده spf15 ارمانا بالم لب spf15 نرمکننده بالملبنرمکنندهspf15ارمانابالملبspf15نرمکننده"
+    },
+    {
+      "id": 10,
+      "title": "لوسیون بدن مغذی بادام ۴۰۰ میلی‌لیتر",
+      "brand": "بهارین",
+      "category": "skin-care",
+      "description": "لوسیون سبک و مغذی با روغن بادام شیرین که پوست بدن را نرم و لطیف نگه می‌دارد.",
+      "basePrice": 380000,
+      "discount": 8,
+      "price": 350000,
+      "stock": 3,
+      "rating": 4.5,
+      "reviewCount": 3,
+      "tags": ["لوسیون بدن", "روغن بادام", "پوست خشک"],
+      "sku": "DR-0010",
+      "thumbnail": "/images/products/10-1.svg",
+      "images": ["/images/products/10-1.svg", "/images/products/10-2.svg", "/images/products/10-3.svg"],
+      "createdAt": "2026-08-23T13:16:01.570Z",
+      "searchText": "لوسیون بدن مغذی بادام 400 میلیلیتر بهارین لوسیون بدن روغن بادام پوست خشک لوسیونبدنمغذیبادام400میلیلیتربهارینلوسیونبدنروغنبادامپوستخشک"
+    },
+    {
+      "id": 11,
+      "title": "شامپو ضدشوره ۳۵۰ میلی‌لیتر",
+      "brand": "زلال",
+      "category": "beauty",
+      "description": "شامپوی ضدشوره با زینک پیریتیون که با مصرف منظم به کاهش شوره و خارش پوست سر کمک می‌کند.",
+      "basePrice": 260000,
+      "discount": 10,
+      "price": 234000,
+      "stock": 60,
+      "rating": 4.3,
+      "reviewCount": 2,
+      "tags": ["شامپو", "ضدشوره", "پوست سر"],
+      "sku": "DR-0011",
+      "thumbnail": "/images/products/11-1.svg",
+      "images": ["/images/products/11-1.svg", "/images/products/11-2.svg", "/images/products/11-3.svg"],
+      "createdAt": "2026-08-25T13:16:01.570Z",
+      "searchText": "شامپو ضدشوره 350 میلیلیتر زلال شامپو ضدشوره پوست سر شامپوضدشوره350میلیلیترزلالشامپوضدشورهپوستسر"
+    },
+    {
+      "id": 12,
+      "title": "نرم‌کننده مو ابریشمی ۳۰۰ میلی‌لیتر",
+      "brand": "آوا",
+      "category": "beauty",
+      "description": "نرم‌کنندهٔ مو با پروتئین ابریشم که موهای خشک را براق و شانه‌پذیر می‌کند.",
+      "basePrice": 230000,
+      "discount": 0,
+      "price": 230000,
+      "stock": 41,
+      "rating": 4.4,
+      "reviewCount": 3,
+      "tags": ["نرم‌کننده", "موی خشک", "ابریشمی"],
+      "sku": "DR-0012",
+      "thumbnail": "/images/products/12-1.svg",
+      "images": ["/images/products/12-1.svg", "/images/products/12-2.svg", "/images/products/12-3.svg"],
+      "createdAt": "2026-08-27T13:16:01.570Z",
+      "searchText": "نرمکننده مو ابریشمی 300 میلیلیتر اوا نرمکننده موی خشک ابریشمی نرمکنندهموابریشمی300میلیلیتراوانرمکنندهمویخشکابریشمی"
+    },
+    {
+      "id": 13,
+      "title": "صابون مایع دست با عصاره آلوئه‌ورا ۵۰۰ میلی‌لیتر",
+      "brand": "گلبرگ",
+      "category": "beauty",
+      "description": "صابون مایع ملایم با pH متعادل که ضمن پاک‌سازی، دست‌ها را خشک نمی‌کند.",
+      "basePrice": 120000,
+      "discount": 5,
+      "price": 114000,
+      "stock": 90,
+      "rating": 4.5,
+      "reviewCount": 3,
+      "tags": ["صابون مایع", "آلوئه‌ورا", "دست"],
+      "sku": "DR-0013",
+      "thumbnail": "/images/products/13-1.svg",
+      "images": ["/images/products/13-1.svg", "/images/products/13-2.svg", "/images/products/13-3.svg"],
+      "createdAt": "2026-08-29T13:16:01.570Z",
+      "searchText": "صابون مایع دست با عصاره الوئهورا 500 میلیلیتر گلبرگ صابون مایع الوئهورا دست صابونمایعدستباعصارهالوئهورا500میلیلیترگلبرگصابونمایعالوئهورادست"
+    },
+    {
+      "id": 14,
+      "title": "خمیردندان سفیدکننده ۱۱۰ گرم",
+      "brand": "سپیدار",
+      "category": "beauty",
+      "description": "خمیردندان حاوی فلوراید برای محافظت از مینا و کاهش لکه‌های سطحی دندان.",
+      "basePrice": 140000,
+      "discount": 0,
+      "price": 140000,
+      "stock": 75,
+      "rating": 4.2,
+      "reviewCount": 1,
+      "tags": ["خمیردندان", "سفیدکننده", "فلوراید"],
+      "sku": "DR-0014",
+      "thumbnail": "/images/products/14-1.svg",
+      "images": ["/images/products/14-1.svg", "/images/products/14-2.svg", "/images/products/14-3.svg"],
+      "createdAt": "2026-08-31T13:16:01.570Z",
+      "searchText": "خمیردندان سفیدکننده 110 گرم سپیدار خمیردندان سفیدکننده فلوراید خمیردندانسفیدکننده110گرمسپیدارخمیردندانسفیدکنندهفلوراید"
+    },
+    {
+      "id": 15,
+      "title": "مسواک با برس نرم (بستهٔ ۳ عددی)",
+      "brand": "سپیدار",
+      "category": "beauty",
+      "description": "مسواک با برس‌های ریز و نرم که بدون آسیب به لثه، پلاک‌های دندانی را پاک می‌کند.",
+      "basePrice": 110000,
+      "discount": 15,
+      "price": 94000,
+      "stock": 55,
+      "rating": 4.4,
+      "reviewCount": 4,
+      "tags": ["مسواک", "برس نرم", "بسته سه‌تایی"],
+      "sku": "DR-0015",
+      "thumbnail": "/images/products/15-1.svg",
+      "images": ["/images/products/15-1.svg", "/images/products/15-2.svg", "/images/products/15-3.svg"],
+      "createdAt": "2026-09-02T13:16:01.570Z",
+      "searchText": "مسواک با برس نرم (بسته 3 عددی) سپیدار مسواک برس نرم بسته سهتایی مسواکبابرسنرم(بسته3عددی)سپیدارمسواکبرسنرمبستهسهتایی"
+    },
+    {
+      "id": 16,
+      "title": "دئودورانت ضدتعریق بدون الکل",
+      "brand": "آرمانا",
+      "category": "beauty",
+      "description": "دئودورانت رول‌آن با محافظت ۴۸ ساعته و فرمول ملایم مناسب پوست‌های حساس.",
+      "basePrice": 175000,
+      "discount": 0,
+      "price": 175000,
+      "stock": 0,
+      "rating": 4.1,
+      "reviewCount": 3,
+      "tags": ["دئودورانت", "ضدتعریق", "بدون الکل"],
+      "sku": "DR-0016",
+      "thumbnail": "/images/products/16-1.svg",
+      "images": ["/images/products/16-1.svg", "/images/products/16-2.svg", "/images/products/16-3.svg"],
+      "createdAt": "2026-09-04T13:16:01.570Z",
+      "searchText": "دئودورانت ضدتعریق بدون الکل ارمانا دئودورانت ضدتعریق بدون الکل دئودورانتضدتعریقبدونالکلارمانادئودورانتضدتعریقبدونالکل"
+    },
+    {
+      "id": 17,
+      "title": "ژل دوش با رایحهٔ گل‌های بهاری ۴۰۰ میلی‌لیتر",
+      "brand": "بهارین",
+      "category": "beauty",
+      "description": "ژل دوش کف‌ساز با رایحه‌ای تازه و ماندگار که پوست را پس از حمام نرم می‌کند.",
+      "basePrice": 210000,
+      "discount": 12,
+      "price": 185000,
+      "stock": 33,
+      "rating": 4.5,
+      "reviewCount": 1,
+      "tags": ["ژل دوش", "رایحه گل", "بدن"],
+      "sku": "DR-0017",
+      "thumbnail": "/images/products/17-1.svg",
+      "images": ["/images/products/17-1.svg", "/images/products/17-2.svg", "/images/products/17-3.svg"],
+      "createdAt": "2026-09-06T13:16:01.570Z",
+      "searchText": "ژل دوش با رایحه گلهای بهاری 400 میلیلیتر بهارین ژل دوش رایحه گل بدن ژلدوشبارایحهگلهایبهاری400میلیلیتربهارینژلدوشرایحهگلبدن"
+    },
+    {
+      "id": 18,
+      "title": "کرم دست ترمیم‌کننده ۷۵ میلی‌لیتر",
+      "brand": "درمانوا",
+      "category": "beauty",
+      "description": "کرم غنی با پانتنول و گلیسیرین برای دست‌های خشک و ترک‌خورده در فصل سرما.",
+      "basePrice": 150000,
+      "discount": 0,
+      "price": 150000,
+      "stock": 6,
+      "rating": 4.6,
+      "reviewCount": 1,
+      "tags": ["کرم دست", "ترمیم‌کننده", "پوست ترک‌خورده"],
+      "sku": "DR-0018",
+      "thumbnail": "/images/products/18-1.svg",
+      "images": ["/images/products/18-1.svg", "/images/products/18-2.svg", "/images/products/18-3.svg"],
+      "createdAt": "2026-09-08T13:16:01.570Z",
+      "searchText": "کرم دست ترمیمکننده 75 میلیلیتر درمانوا کرم دست ترمیمکننده پوست ترکخورده کرمدستترمیمکننده75میلیلیتردرمانواکرمدستترمیمکنندهپوستترکخورده"
+    },
+    {
+      "id": 19,
+      "title": "ماسک مو کراتینه ۲۵۰ میلی‌لیتر",
+      "brand": "نیلوفر",
+      "category": "beauty",
+      "description": "ماسک ترمیم‌کنندهٔ مو با کراتین و روغن آرگان برای موهای آسیب‌دیده و رنگ‌شده.",
+      "basePrice": 480000,
+      "discount": 20,
+      "price": 384000,
+      "stock": 19,
+      "rating": 4.7,
+      "reviewCount": 0,
+      "tags": ["ماسک مو", "کراتین", "ترمیم"],
+      "sku": "DR-0019",
+      "thumbnail": "/images/products/19-1.svg",
+      "images": ["/images/products/19-1.svg", "/images/products/19-2.svg", "/images/products/19-3.svg"],
+      "createdAt": "2026-09-10T13:16:01.570Z",
+      "searchText": "ماسک مو کراتینه 250 میلیلیتر نیلوفر ماسک مو کراتین ترمیم ماسکموکراتینه250میلیلیترنیلوفرماسکموکراتینترمیم"
+    },
+    {
+      "id": 20,
+      "title": "دهان‌شویه بدون الکل ۵۰۰ میلی‌لیتر",
+      "brand": "سپیدار",
+      "category": "beauty",
+      "description": "دهان‌شویهٔ ملایم با طعم نعناع که بدون سوزش، نفس را تازه نگه می‌دارد.",
+      "basePrice": 195000,
+      "discount": 0,
+      "price": 195000,
+      "stock": 44,
+      "rating": 4.3,
+      "reviewCount": 2,
+      "tags": ["دهان‌شویه", "بدون الکل", "نفس خوش"],
+      "sku": "DR-0020",
+      "thumbnail": "/images/products/20-1.svg",
+      "images": ["/images/products/20-1.svg", "/images/products/20-2.svg", "/images/products/20-3.svg"],
+      "createdAt": "2026-09-12T13:16:01.570Z",
+      "searchText": "دهانشویه بدون الکل 500 میلیلیتر سپیدار دهانشویه بدون الکل نفس خوش دهانشویهبدونالکل500میلیلیترسپیداردهانشویهبدونالکلنفسخوش"
+    },
+    {
+      "id": 21,
+      "title": "اسپری بدن رایحهٔ چوب صندل ۱۵۰ میلی‌لیتر",
+      "brand": "آرمانا",
+      "category": "fragrances",
+      "description": "اسپری بدن با رایحهٔ گرم و چوبی که برای استفادهٔ روزانه مناسب است.",
+      "basePrice": 320000,
+      "discount": 10,
+      "price": 288000,
+      "stock": 37,
+      "rating": 4.4,
+      "reviewCount": 2,
+      "tags": ["اسپری بدن", "چوب صندل", "روزمره"],
+      "sku": "DR-0021",
+      "thumbnail": "/images/products/21-1.svg",
+      "images": ["/images/products/21-1.svg", "/images/products/21-2.svg", "/images/products/21-3.svg"],
+      "createdAt": "2026-09-14T13:16:01.570Z",
+      "searchText": "اسپری بدن رایحه چوب صندل 150 میلیلیتر ارمانا اسپری بدن چوب صندل روزمره اسپریبدنرایحهچوبصندل150میلیلیترارمانااسپریبدنچوبصندلروزمره"
+    },
+    {
+      "id": 22,
+      "title": "عطر جیبی گل یاس ۲۰ میلی‌لیتر",
+      "brand": "گلبرگ",
+      "category": "fragrances",
+      "description": "عطر جیبی با رایحهٔ ملایم یاس در بسته‌بندی کوچک و مناسب کیف دستی.",
+      "basePrice": 450000,
+      "discount": 0,
+      "price": 450000,
+      "stock": 28,
+      "rating": 4.5,
+      "reviewCount": 2,
+      "tags": ["عطر جیبی", "گل یاس", "قابل حمل"],
+      "sku": "DR-0022",
+      "thumbnail": "/images/products/22-1.svg",
+      "images": ["/images/products/22-1.svg", "/images/products/22-2.svg", "/images/products/22-3.svg"],
+      "createdAt": "2026-09-16T13:16:01.570Z",
+      "searchText": "عطر جیبی گل یاس 20 میلیلیتر گلبرگ عطر جیبی گل یاس قابل حمل عطرجیبیگلیاس20میلیلیترگلبرگعطرجیبیگلیاسقابلحمل"
+    },
+    {
+      "id": 23,
+      "title": "ادکلن زنانه رایحهٔ گلی-میوه‌ای ۱۰۰ میلی‌لیتر",
+      "brand": "نیلوفر",
+      "category": "fragrances",
+      "description": "ادکلن با نت‌های بالایی توت و گلابی و قلب گلی؛ ماندگاری متوسط تا زیاد.",
+      "basePrice": 1450000,
+      "discount": 15,
+      "price": 1233000,
+      "stock": 14,
+      "rating": 4.7,
+      "reviewCount": 1,
+      "tags": ["ادکلن", "زنانه", "گلی میوه‌ای"],
+      "sku": "DR-0023",
+      "thumbnail": "/images/products/23-1.svg",
+      "images": ["/images/products/23-1.svg", "/images/products/23-2.svg", "/images/products/23-3.svg"],
+      "createdAt": "2026-09-18T13:16:01.570Z",
+      "searchText": "ادکلن زنانه رایحه گلی-میوهای 100 میلیلیتر نیلوفر ادکلن زنانه گلی میوهای ادکلنزنانهرایحهگلی-میوهای100میلیلیترنیلوفرادکلنزنانهگلیمیوهای"
+    },
+    {
+      "id": 24,
+      "title": "ادکلن مردانه رایحهٔ چوبی-ادویه‌ای ۱۰۰ میلی‌لیتر",
+      "brand": "آرمانا",
+      "category": "fragrances",
+      "description": "ادکلن با رایحهٔ گرم چوب سدر و ادویه که برای فصل‌های سرد انتخاب مناسبی است.",
+      "basePrice": 1650000,
+      "discount": 10,
+      "price": 1485000,
+      "stock": 9,
+      "rating": 4.6,
+      "reviewCount": 3,
+      "tags": ["ادکلن", "مردانه", "چوبی"],
+      "sku": "DR-0024",
+      "thumbnail": "/images/products/24-1.svg",
+      "images": ["/images/products/24-1.svg", "/images/products/24-2.svg", "/images/products/24-3.svg"],
+      "createdAt": "2026-09-20T13:16:01.570Z",
+      "searchText": "ادکلن مردانه رایحه چوبی-ادویهای 100 میلیلیتر ارمانا ادکلن مردانه چوبی ادکلنمردانهرایحهچوبی-ادویهای100میلیلیترارماناادکلنمردانهچوبی"
+    },
+    {
+      "id": 25,
+      "title": "خوشبوکنندهٔ هوا لیمو و نعنا ۳۰۰ میلی‌لیتر",
+      "brand": "زلال",
+      "category": "fragrances",
+      "description": "اسپری خوشبوکنندهٔ هوا با رایحهٔ شاداب مرکبات که فضای خانه را تازه می‌کند.",
+      "basePrice": 160000,
+      "discount": 0,
+      "price": 160000,
+      "stock": 52,
+      "rating": 4.2,
+      "reviewCount": 4,
+      "tags": ["خوشبوکننده هوا", "لیمو", "نعنا"],
+      "sku": "DR-0025",
+      "thumbnail": "/images/products/25-1.svg",
+      "images": ["/images/products/25-1.svg", "/images/products/25-2.svg", "/images/products/25-3.svg"],
+      "createdAt": "2026-09-22T13:16:01.570Z",
+      "searchText": "خوشبوکننده هوا لیمو و نعنا 300 میلیلیتر زلال خوشبوکننده هوا لیمو نعنا خوشبوکنندههوالیموونعنا300میلیلیترزلالخوشبوکنندههوالیمونعنا"
+    },
+    {
+      "id": 26,
+      "title": "مه معطر بدن و مو رایحهٔ وانیل ۱۲۰ میلی‌لیتر",
+      "brand": "بهارین",
+      "category": "fragrances",
+      "description": "مه سبک و خنک با رایحهٔ وانیل و کارامل که به‌راحتی روی بدن و مو اسپری می‌شود.",
+      "basePrice": 340000,
+      "discount": 8,
+      "price": 313000,
+      "stock": 0,
+      "rating": 4.3,
+      "reviewCount": 4,
+      "tags": ["مه معطر", "وانیل", "بدن و مو"],
+      "sku": "DR-0026",
+      "thumbnail": "/images/products/26-1.svg",
+      "images": ["/images/products/26-1.svg", "/images/products/26-2.svg", "/images/products/26-3.svg"],
+      "createdAt": "2026-09-24T13:16:01.570Z",
+      "searchText": "مه معطر بدن و مو رایحه وانیل 120 میلیلیتر بهارین مه معطر وانیل بدن و مو مهمعطربدنومورایحهوانیل120میلیلیتربهارینمهمعطروانیلبدنومو"
+    },
+    {
+      "id": 27,
+      "title": "روغن معطر طبیعی گل محمدی ۱۰ میلی‌لیتر",
+      "brand": "گلبرگ",
+      "category": "fragrances",
+      "description": "روغن معطر بدون الکل با رایحهٔ گل محمدی که روی نقاط نبض استفاده می‌شود.",
+      "basePrice": 520000,
+      "discount": 0,
+      "price": 520000,
+      "stock": 16,
+      "rating": 4.8,
+      "reviewCount": 4,
+      "tags": ["روغن معطر", "گل محمدی", "طبیعی"],
+      "sku": "DR-0027",
+      "thumbnail": "/images/products/27-1.svg",
+      "images": ["/images/products/27-1.svg", "/images/products/27-2.svg", "/images/products/27-3.svg"],
+      "createdAt": "2026-09-26T13:16:01.570Z",
+      "searchText": "روغن معطر طبیعی گل محمدی 10 میلیلیتر گلبرگ روغن معطر گل محمدی طبیعی روغنمعطرطبیعیگلمحمدی10میلیلیترگلبرگروغنمعطرگلمحمدیطبیعی"
+    },
+    {
+      "id": 28,
+      "title": "اسپری خنک‌کنندهٔ بدن رایحهٔ دریایی ۱۵۰ میلی‌لیتر",
+      "brand": "آوا",
+      "category": "fragrances",
+      "description": "اسپری سبک با رایحهٔ تازهٔ دریایی که در روزهای گرم حس طراوت می‌دهد.",
+      "basePrice": 245000,
+      "discount": 5,
+      "price": 233000,
+      "stock": 63,
+      "rating": 4.1,
+      "reviewCount": 2,
+      "tags": ["اسپری بدن", "دریایی", "خنک‌کننده"],
+      "sku": "DR-0028",
+      "thumbnail": "/images/products/28-1.svg",
+      "images": ["/images/products/28-1.svg", "/images/products/28-2.svg", "/images/products/28-3.svg"],
+      "createdAt": "2026-09-28T13:16:01.570Z",
+      "searchText": "اسپری خنککننده بدن رایحه دریایی 150 میلیلیتر اوا اسپری بدن دریایی خنککننده اسپریخنککنندهبدنرایحهدریایی150میلیلیتراوااسپریبدندریاییخنککننده"
+    },
+    {
+      "id": 29,
+      "title": "ست هدیه عطر و لوسیون (دو تکه)",
+      "brand": "نیلوفر",
+      "category": "fragrances",
+      "description": "ست هدیهٔ دو تکه شامل عطر ۵۰ میلی‌لیتر و لوسیون بدن هم‌رایحه در جعبهٔ مناسب هدیه.",
+      "basePrice": 1250000,
+      "discount": 25,
+      "price": 938000,
+      "stock": 5,
+      "rating": 4.6,
+      "reviewCount": 4,
+      "tags": ["ست هدیه", "عطر", "لوسیون"],
+      "sku": "DR-0029",
+      "thumbnail": "/images/products/29-1.svg",
+      "images": ["/images/products/29-1.svg", "/images/products/29-2.svg", "/images/products/29-3.svg"],
+      "createdAt": "2026-09-30T13:16:01.570Z",
+      "searchText": "ست هدیه عطر و لوسیون (دو تکه) نیلوفر ست هدیه عطر لوسیون ستهدیهعطرولوسیون(دوتکه)نیلوفرستهدیهعطرلوسیون"
+    },
+    {
+      "id": 30,
+      "title": "عود خوشبوکننده طبیعی (بستهٔ ۲۰ عددی)",
+      "brand": "زلال",
+      "category": "fragrances",
+      "description": "عود دست‌ساز با ترکیب چوب‌های معطر برای ایجاد فضایی آرام در خانه.",
+      "basePrice": 130000,
+      "discount": 0,
+      "price": 130000,
+      "stock": 80,
+      "rating": 4,
+      "reviewCount": 3,
+      "tags": ["عود", "طبیعی", "خوشبوکننده"],
+      "sku": "DR-0030",
+      "thumbnail": "/images/products/30-1.svg",
+      "images": ["/images/products/30-1.svg", "/images/products/30-2.svg", "/images/products/30-3.svg"],
+      "createdAt": "2026-10-02T13:16:01.570Z",
+      "searchText": "عود خوشبوکننده طبیعی (بسته 20 عددی) زلال عود طبیعی خوشبوکننده عودخوشبوکنندهطبیعی(بسته20عددی)زلالعودطبیعیخوشبوکننده"
+    },
+    {
+      "id": 31,
+      "title": "عسل طبیعی چندگیاه ۵۰۰ گرم",
+      "brand": "بهارین",
+      "category": "groceries",
+      "description": "عسل خام و فرآوری‌نشده از مراتع کوهستانی؛ مناسب صبحانه و دمنوش‌ها.",
+      "basePrice": 690000,
+      "discount": 10,
+      "price": 621000,
+      "stock": 25,
+      "rating": 4.8,
+      "reviewCount": 2,
+      "tags": ["عسل", "طبیعی", "چندگیاه"],
+      "sku": "DR-0031",
+      "thumbnail": "/images/products/31-1.svg",
+      "images": ["/images/products/31-1.svg", "/images/products/31-2.svg", "/images/products/31-3.svg"],
+      "createdAt": "2026-10-04T13:16:01.570Z",
+      "searchText": "عسل طبیعی چندگیاه 500 گرم بهارین عسل طبیعی چندگیاه عسلطبیعیچندگیاه500گرمبهارینعسلطبیعیچندگیاه"
+    },
+    {
+      "id": 32,
+      "title": "دمنوش آرام‌بخش بابونه (۲۰ عددی)",
+      "brand": "گیاهان سبز",
+      "category": "groceries",
+      "description": "دمنوش تک‌نفره از گل خشک بابونه؛ نوشیدنی گرم و دلپذیر پیش از خواب.",
+      "basePrice": 180000,
+      "discount": 0,
+      "price": 180000,
+      "stock": 70,
+      "rating": 4.5,
+      "reviewCount": 2,
+      "tags": ["دمنوش", "بابونه", "گیاهی"],
+      "sku": "DR-0032",
+      "thumbnail": "/images/products/32-1.svg",
+      "images": ["/images/products/32-1.svg", "/images/products/32-2.svg", "/images/products/32-3.svg"],
+      "createdAt": "2026-10-06T13:16:01.570Z",
+      "searchText": "دمنوش ارامبخش بابونه (20 عددی) گیاهان سبز دمنوش بابونه گیاهی دمنوشارامبخشبابونه(20عددی)گیاهانسبزدمنوشبابونهگیاهی"
+    },
+    {
+      "id": 33,
+      "title": "روغن کنجد بکر ۳۰۰ میلی‌لیتر",
+      "brand": "گیاهان سبز",
+      "category": "groceries",
+      "description": "روغن کنجد پرس سرد، مناسب سالاد و پخت سبک.",
+      "basePrice": 410000,
+      "discount": 5,
+      "price": 390000,
+      "stock": 18,
+      "rating": 4.4,
+      "reviewCount": 4,
+      "tags": ["روغن کنجد", "بکر", "سرد پرس"],
+      "sku": "DR-0033",
+      "thumbnail": "/images/products/33-1.svg",
+      "images": ["/images/products/33-1.svg", "/images/products/33-2.svg", "/images/products/33-3.svg"],
+      "createdAt": "2026-10-08T13:16:01.570Z",
+      "searchText": "روغن کنجد بکر 300 میلیلیتر گیاهان سبز روغن کنجد بکر سرد پرس روغنکنجدبکر300میلیلیترگیاهانسبزروغنکنجدبکرسردپرس"
+    },
+    {
+      "id": 34,
+      "title": "مغز بادام خام ۲۵۰ گرم",
+      "brand": "سپیدار",
+      "category": "groceries",
+      "description": "مغز بادام درختی بدون نمک و فرآوری، مناسب میان‌وعده.",
+      "basePrice": 560000,
+      "discount": 12,
+      "price": 493000,
+      "stock": 30,
+      "rating": 4.6,
+      "reviewCount": 3,
+      "tags": ["بادام", "مغزیجات", "خام"],
+      "sku": "DR-0034",
+      "thumbnail": "/images/products/34-1.svg",
+      "images": ["/images/products/34-1.svg", "/images/products/34-2.svg", "/images/products/34-3.svg"],
+      "createdAt": "2026-10-10T13:16:01.570Z",
+      "searchText": "مغز بادام خام 250 گرم سپیدار بادام مغزیجات خام مغزبادامخام250گرمسپیدارباداممغزیجاتخام"
+    },
+    {
+      "id": 35,
+      "title": "غلات صبحانه جو دوسر و عسل ۴۰۰ گرم",
+      "brand": "آوا",
+      "category": "groceries",
+      "description": "مخلوط جو دوسر و عسل برشته‌شده؛ مناسب صبحانهٔ سریع با شیر یا ماست.",
+      "basePrice": 330000,
+      "discount": 0,
+      "price": 330000,
+      "stock": 2,
+      "rating": 4.2,
+      "reviewCount": 0,
+      "tags": ["جو دوسر", "صبحانه", "غلات"],
+      "sku": "DR-0035",
+      "thumbnail": "/images/products/35-1.svg",
+      "images": ["/images/products/35-1.svg", "/images/products/35-2.svg", "/images/products/35-3.svg"],
+      "createdAt": "2026-10-12T13:16:01.570Z",
+      "searchText": "غلات صبحانه جو دوسر و عسل 400 گرم اوا جو دوسر صبحانه غلات غلاتصبحانهجودوسروعسل400گرماواجودوسرصبحانهغلات"
+    },
+    {
+      "id": 36,
+      "title": "چای سبز ارگانیک (بستهٔ ۴۰ عددی)",
+      "brand": "گیاهان سبز",
+      "category": "groceries",
+      "description": "چای سبز با برگ‌های دست‌چین؛ طعم ملایم و کمی گیاهی.",
+      "basePrice": 275000,
+      "discount": 8,
+      "price": 253000,
+      "stock": 45,
+      "rating": 4.5,
+      "reviewCount": 2,
+      "tags": ["چای سبز", "ارگانیک", "تی‌بگ"],
+      "sku": "DR-0036",
+      "thumbnail": "/images/products/36-1.svg",
+      "images": ["/images/products/36-1.svg", "/images/products/36-2.svg", "/images/products/36-3.svg"],
+      "createdAt": "2026-10-14T13:16:01.570Z",
+      "searchText": "چای سبز ارگانیک (بسته 40 عددی) گیاهان سبز چای سبز ارگانیک تیبگ چایسبزارگانیک(بسته40عددی)گیاهانسبزچایسبزارگانیکتیبگ"
+    },
+    {
+      "id": 37,
+      "title": "خرما مجهول درجه یک ۱ کیلوگرم",
+      "brand": "بهارین",
+      "category": "groceries",
+      "description": "خرمای درشت و نرم با پوست نازک؛ انرژی‌زای طبیعی برای میان‌وعده.",
+      "basePrice": 520000,
+      "discount": 0,
+      "price": 520000,
+      "stock": 0,
+      "rating": 4.7,
+      "reviewCount": 3,
+      "tags": ["خرما", "مجهول", "میوه خشک"],
+      "sku": "DR-0037",
+      "thumbnail": "/images/products/37-1.svg",
+      "images": ["/images/products/37-1.svg", "/images/products/37-2.svg", "/images/products/37-3.svg"],
+      "createdAt": "2026-10-16T13:16:01.570Z",
+      "searchText": "خرما مجهول درجه یک 1 کیلوگرم بهارین خرما مجهول میوه خشک خرمامجهولدرجهیک1کیلوگرمبهارینخرمامجهولمیوهخشک"
+    },
+    {
+      "id": 38,
+      "title": "شکلات تلخ ۷۰ درصد ۱۰۰ گرم",
+      "brand": "نیلوفر",
+      "category": "groceries",
+      "description": "شکلات تلخ با ۷۰ درصد کاکائو و شکر کمتر برای دوست‌داران طعم اصیل.",
+      "basePrice": 150000,
+      "discount": 0,
+      "price": 150000,
+      "stock": 58,
+      "rating": 4.4,
+      "reviewCount": 2,
+      "tags": ["شکلات تلخ", "۷۰ درصد", "کاکائو"],
+      "sku": "DR-0038",
+      "thumbnail": "/images/products/38-1.svg",
+      "images": ["/images/products/38-1.svg", "/images/products/38-2.svg", "/images/products/38-3.svg"],
+      "createdAt": "2026-10-18T13:16:01.570Z",
+      "searchText": "شکلات تلخ 70 درصد 100 گرم نیلوفر شکلات تلخ 70 درصد کاکائو شکلاتتلخ70درصد100گرمنیلوفرشکلاتتلخ70درصدکاکائو"
+    },
+    {
+      "id": 39,
+      "title": "ترکیب مغزهای مخلوط ۳۰۰ گرم",
+      "brand": "سپیدار",
+      "category": "groceries",
+      "description": "مخلوط بادام، گردو، فندق و پسته برای میان‌وعدهٔ مقوی.",
+      "basePrice": 480000,
+      "discount": 15,
+      "price": 408000,
+      "stock": 21,
+      "rating": 4.5,
+      "reviewCount": 1,
+      "tags": ["مغزیجات", "مخلوط", "میان‌وعده"],
+      "sku": "DR-0039",
+      "thumbnail": "/images/products/39-1.svg",
+      "images": ["/images/products/39-1.svg", "/images/products/39-2.svg", "/images/products/39-3.svg"],
+      "createdAt": "2026-10-20T13:16:01.570Z",
+      "searchText": "ترکیب مغزهای مخلوط 300 گرم سپیدار مغزیجات مخلوط میانوعده ترکیبمغزهایمخلوط300گرمسپیدارمغزیجاتمخلوطمیانوعده"
+    },
+    {
+      "id": 40,
+      "title": "شیره انگور سنتی ۷۰۰ گرم",
+      "brand": "گیاهان سبز",
+      "category": "groceries",
+      "description": "شیرهٔ انگور بدون افزودنی، مناسب صبحانه و دسر.",
+      "basePrice": 250000,
+      "discount": 5,
+      "price": 238000,
+      "stock": 11,
+      "rating": 4.3,
+      "reviewCount": 2,
+      "tags": ["شیره انگور", "سنتی", "طبیعی"],
+      "sku": "DR-0040",
+      "thumbnail": "/images/products/40-1.svg",
+      "images": ["/images/products/40-1.svg", "/images/products/40-2.svg", "/images/products/40-3.svg"],
+      "createdAt": "2026-10-22T13:16:01.570Z",
+      "searchText": "شیره انگور سنتی 700 گرم گیاهان سبز شیره انگور سنتی طبیعی شیرهانگورسنتی700گرمگیاهانسبزشیرهانگورسنتیطبیعی"
+    }
+  ],
+  "reviews": [
+    {
+      "productId": 1,
+      "reviewerName": "علی ر.",
+      "rating": 4,
+      "comment": "رایحه و بافتش را دوست داشتم.",
+      "date": "2026-10-11T13:16:01.570Z",
+      "id": 1
+    },
+    {
+      "productId": 1,
+      "reviewerName": "پویا ش.",
+      "rating": 4,
+      "comment": "رایحه و بافتش را دوست داشتم.",
+      "date": "2026-10-02T13:16:01.570Z",
+      "id": 2
+    },
+    {
+      "productId": 2,
+      "reviewerName": "نگار ا.",
+      "rating": 4,
+      "comment": "بد نبود، ولی انتظار کمی بیشتر داشتم.",
+      "date": "2026-10-12T13:16:01.570Z",
+      "id": 3
+    },
+    {
+      "productId": 4,
+      "reviewerName": "علی ر.",
+      "rating": 4,
+      "comment": "بسته‌بندی ساده ولی محصول خوب است.",
+      "date": "2026-10-12T13:16:01.570Z",
+      "id": 4
+    },
+    {
+      "productId": 4,
+      "reviewerName": "سارا م.",
+      "rating": 5,
+      "comment": "کیفیت خیلی خوب بود و بسته‌بندی سالم رسید.",
+      "date": "2026-10-03T13:16:01.570Z",
+      "id": 5
+    },
+    {
+      "productId": 4,
+      "reviewerName": "سارا م.",
+      "rating": 4,
+      "comment": "بسته‌بندی ساده ولی محصول خوب است.",
+      "date": "2026-09-26T13:16:01.570Z",
+      "id": 6
+    },
+    {
+      "productId": 5,
+      "reviewerName": "رضا ک.",
+      "rating": 5,
+      "comment": "کیفیت خیلی خوب بود و بسته‌بندی سالم رسید.",
+      "date": "2026-10-15T13:16:01.570Z",
+      "id": 7
+    },
+    {
+      "productId": 5,
+      "reviewerName": "مریم ح.",
+      "rating": 5,
+      "comment": "ارزش خرید دارد، دوباره تهیه می‌کنم.",
+      "date": "2026-10-06T13:16:01.570Z",
+      "id": 8
+    },
+    {
+      "productId": 5,
+      "reviewerName": "مریم ح.",
+      "rating": 4,
+      "comment": "قیمت نسبت به کیفیتش منطقی است.",
+      "date": "2026-09-27T13:16:01.570Z",
+      "id": 9
+    },
+    {
+      "productId": 6,
+      "reviewerName": "پویا ش.",
+      "rating": 4,
+      "comment": "قیمت نسبت به کیفیتش منطقی است.",
+      "date": "2026-10-13T13:16:01.570Z",
+      "id": 10
+    },
+    {
+      "productId": 6,
+      "reviewerName": "رضا ک.",
+      "rating": 4,
+      "comment": "بد نبود، ولی انتظار کمی بیشتر داشتم.",
+      "date": "2026-10-04T13:16:01.570Z",
+      "id": 11
+    },
+    {
+      "productId": 6,
+      "reviewerName": "امیر ن.",
+      "rating": 5,
+      "comment": "ارزش خرید دارد، دوباره تهیه می‌کنم.",
+      "date": "2026-09-27T13:16:01.570Z",
+      "id": 12
+    },
+    {
+      "productId": 7,
+      "reviewerName": "الهام ز.",
+      "rating": 4,
+      "comment": "رایحه و بافتش را دوست داشتم.",
+      "date": "2026-10-14T13:16:01.570Z",
+      "id": 13
+    },
+    {
+      "productId": 7,
+      "reviewerName": "مریم ح.",
+      "rating": 4,
+      "comment": "قیمت نسبت به کیفیتش منطقی است.",
+      "date": "2026-10-04T13:16:01.570Z",
+      "id": 14
+    },
+    {
+      "productId": 7,
+      "reviewerName": "مریم ح.",
+      "rating": 4,
+      "comment": "قیمت نسبت به کیفیتش منطقی است.",
+      "date": "2026-09-26T13:16:01.570Z",
+      "id": 15
+    },
+    {
+      "productId": 7,
+      "reviewerName": "علی ر.",
+      "rating": 5,
+      "comment": "مطابق توضیحات بود؛ برای مصرف روزمره عالیه.",
+      "date": "2026-09-17T13:16:01.570Z",
+      "id": 16
+    },
+    {
+      "productId": 8,
+      "reviewerName": "علی ر.",
+      "rating": 5,
+      "comment": "کیفیت خیلی خوب بود و بسته‌بندی سالم رسید.",
+      "date": "2026-10-14T13:16:01.570Z",
+      "id": 17
+    },
+    {
+      "productId": 8,
+      "reviewerName": "رضا ک.",
+      "rating": 5,
+      "comment": "مطابق توضیحات بود؛ برای مصرف روزمره عالیه.",
+      "date": "2026-10-06T13:16:01.570Z",
+      "id": 18
+    },
+    {
+      "productId": 9,
+      "reviewerName": "سارا م.",
+      "rating": 5,
+      "comment": "ارزش خرید دارد، دوباره تهیه می‌کنم.",
+      "date": "2026-10-14T13:16:01.570Z",
+      "id": 19
+    },
+    {
+      "productId": 9,
+      "reviewerName": "مریم ح.",
+      "rating": 4,
+      "comment": "رایحه و بافتش را دوست داشتم.",
+      "date": "2026-10-02T13:16:01.570Z",
+      "id": 20
+    },
+    {
+      "productId": 10,
+      "reviewerName": "علی ر.",
+      "rating": 5,
+      "comment": "مطابق توضیحات بود؛ برای مصرف روزمره عالیه.",
+      "date": "2026-10-11T13:16:01.570Z",
+      "id": 21
+    },
+    {
+      "productId": 10,
+      "reviewerName": "امیر ن.",
+      "rating": 4,
+      "comment": "بد نبود، ولی انتظار کمی بیشتر داشتم.",
+      "date": "2026-10-02T13:16:01.570Z",
+      "id": 22
+    },
+    {
+      "productId": 10,
+      "reviewerName": "نگار ا.",
+      "rating": 5,
+      "comment": "ارزش خرید دارد، دوباره تهیه می‌کنم.",
+      "date": "2026-09-27T13:16:01.570Z",
+      "id": 23
+    },
+    {
+      "productId": 11,
+      "reviewerName": "مریم ح.",
+      "rating": 4,
+      "comment": "بد نبود، ولی انتظار کمی بیشتر داشتم.",
+      "date": "2026-10-11T13:16:01.570Z",
+      "id": 24
+    },
+    {
+      "productId": 11,
+      "reviewerName": "علی ر.",
+      "rating": 4,
+      "comment": "رایحه و بافتش را دوست داشتم.",
+      "date": "2026-10-02T13:16:01.570Z",
+      "id": 25
+    },
+    {
+      "productId": 12,
+      "reviewerName": "رضا ک.",
+      "rating": 4,
+      "comment": "رایحه و بافتش را دوست داشتم.",
+      "date": "2026-10-12T13:16:01.570Z",
+      "id": 26
+    },
+    {
+      "productId": 12,
+      "reviewerName": "الهام ز.",
+      "rating": 5,
+      "comment": "کیفیت خیلی خوب بود و بسته‌بندی سالم رسید.",
+      "date": "2026-10-02T13:16:01.570Z",
+      "id": 27
+    },
+    {
+      "productId": 12,
+      "reviewerName": "علی ر.",
+      "rating": 4,
+      "comment": "بد نبود، ولی انتظار کمی بیشتر داشتم.",
+      "date": "2026-09-23T13:16:01.570Z",
+      "id": 28
+    },
+    {
+      "productId": 13,
+      "reviewerName": "رضا ک.",
+      "rating": 5,
+      "comment": "ارزش خرید دارد، دوباره تهیه می‌کنم.",
+      "date": "2026-10-15T13:16:01.570Z",
+      "id": 29
+    },
+    {
+      "productId": 13,
+      "reviewerName": "نگار ا.",
+      "rating": 4,
+      "comment": "بسته‌بندی ساده ولی محصول خوب است.",
+      "date": "2026-10-04T13:16:01.570Z",
+      "id": 30
+    },
+    {
+      "productId": 13,
+      "reviewerName": "الهام ز.",
+      "rating": 5,
+      "comment": "مطابق توضیحات بود؛ برای مصرف روزمره عالیه.",
+      "date": "2026-09-24T13:16:01.570Z",
+      "id": 31
+    },
+    {
+      "productId": 14,
+      "reviewerName": "رضا ک.",
+      "rating": 5,
+      "comment": "ارزش خرید دارد، دوباره تهیه می‌کنم.",
+      "date": "2026-10-13T13:16:01.570Z",
+      "id": 32
+    },
+    {
+      "productId": 15,
+      "reviewerName": "علی ر.",
+      "rating": 4,
+      "comment": "رایحه و بافتش را دوست داشتم.",
+      "date": "2026-10-14T13:16:01.570Z",
+      "id": 33
+    },
+    {
+      "productId": 15,
+      "reviewerName": "امیر ن.",
+      "rating": 4,
+      "comment": "بد نبود، ولی انتظار کمی بیشتر داشتم.",
+      "date": "2026-10-03T13:16:01.570Z",
+      "id": 34
+    },
+    {
+      "productId": 15,
+      "reviewerName": "الهام ز.",
+      "rating": 4,
+      "comment": "بسته‌بندی ساده ولی محصول خوب است.",
+      "date": "2026-09-26T13:16:01.570Z",
+      "id": 35
+    },
+    {
+      "productId": 15,
+      "reviewerName": "رضا ک.",
+      "rating": 4,
+      "comment": "رایحه و بافتش را دوست داشتم.",
+      "date": "2026-09-18T13:16:01.570Z",
+      "id": 36
+    },
+    {
+      "productId": 16,
+      "reviewerName": "نگار ا.",
+      "rating": 4,
+      "comment": "رایحه و بافتش را دوست داشتم.",
+      "date": "2026-10-13T13:16:01.570Z",
+      "id": 37
+    },
+    {
+      "productId": 16,
+      "reviewerName": "مریم ح.",
+      "rating": 5,
+      "comment": "کیفیت خیلی خوب بود و بسته‌بندی سالم رسید.",
+      "date": "2026-10-04T13:16:01.570Z",
+      "id": 38
+    },
+    {
+      "productId": 16,
+      "reviewerName": "علی ر.",
+      "rating": 5,
+      "comment": "مطابق توضیحات بود؛ برای مصرف روزمره عالیه.",
+      "date": "2026-09-27T13:16:01.570Z",
+      "id": 39
+    },
+    {
+      "productId": 17,
+      "reviewerName": "الهام ز.",
+      "rating": 4,
+      "comment": "قیمت نسبت به کیفیتش منطقی است.",
+      "date": "2026-10-11T13:16:01.570Z",
+      "id": 40
+    },
+    {
+      "productId": 18,
+      "reviewerName": "نگار ا.",
+      "rating": 4,
+      "comment": "بد نبود، ولی انتظار کمی بیشتر داشتم.",
+      "date": "2026-10-14T13:16:01.570Z",
+      "id": 41
+    },
+    {
+      "productId": 20,
+      "reviewerName": "مریم ح.",
+      "rating": 5,
+      "comment": "مطابق توضیحات بود؛ برای مصرف روزمره عالیه.",
+      "date": "2026-10-12T13:16:01.570Z",
+      "id": 42
+    },
+    {
+      "productId": 20,
+      "reviewerName": "امیر ن.",
+      "rating": 5,
+      "comment": "کیفیت خیلی خوب بود و بسته‌بندی سالم رسید.",
+      "date": "2026-10-06T13:16:01.570Z",
+      "id": 43
+    },
+    {
+      "productId": 21,
+      "reviewerName": "علی ر.",
+      "rating": 4,
+      "comment": "بسته‌بندی ساده ولی محصول خوب است.",
+      "date": "2026-10-13T13:16:01.570Z",
+      "id": 44
+    },
+    {
+      "productId": 21,
+      "reviewerName": "پویا ش.",
+      "rating": 4,
+      "comment": "بد نبود، ولی انتظار کمی بیشتر داشتم.",
+      "date": "2026-10-06T13:16:01.570Z",
+      "id": 45
+    },
+    {
+      "productId": 22,
+      "reviewerName": "پویا ش.",
+      "rating": 4,
+      "comment": "بسته‌بندی ساده ولی محصول خوب است.",
+      "date": "2026-10-15T13:16:01.570Z",
+      "id": 46
+    },
+    {
+      "productId": 22,
+      "reviewerName": "علی ر.",
+      "rating": 4,
+      "comment": "قیمت نسبت به کیفیتش منطقی است.",
+      "date": "2026-10-03T13:16:01.570Z",
+      "id": 47
+    },
+    {
+      "productId": 23,
+      "reviewerName": "مریم ح.",
+      "rating": 5,
+      "comment": "کیفیت خیلی خوب بود و بسته‌بندی سالم رسید.",
+      "date": "2026-10-12T13:16:01.570Z",
+      "id": 48
+    },
+    {
+      "productId": 24,
+      "reviewerName": "امیر ن.",
+      "rating": 4,
+      "comment": "رایحه و بافتش را دوست داشتم.",
+      "date": "2026-10-14T13:16:01.570Z",
+      "id": 49
+    },
+    {
+      "productId": 24,
+      "reviewerName": "پویا ش.",
+      "rating": 5,
+      "comment": "ارزش خرید دارد، دوباره تهیه می‌کنم.",
+      "date": "2026-10-06T13:16:01.570Z",
+      "id": 50
+    },
+    {
+      "productId": 24,
+      "reviewerName": "امیر ن.",
+      "rating": 5,
+      "comment": "ارزش خرید دارد، دوباره تهیه می‌کنم.",
+      "date": "2026-09-25T13:16:01.570Z",
+      "id": 51
+    },
+    {
+      "productId": 25,
+      "reviewerName": "رضا ک.",
+      "rating": 4,
+      "comment": "قیمت نسبت به کیفیتش منطقی است.",
+      "date": "2026-10-13T13:16:01.570Z",
+      "id": 52
+    },
+    {
+      "productId": 25,
+      "reviewerName": "نگار ا.",
+      "rating": 4,
+      "comment": "رایحه و بافتش را دوست داشتم.",
+      "date": "2026-10-02T13:16:01.570Z",
+      "id": 53
+    },
+    {
+      "productId": 25,
+      "reviewerName": "الهام ز.",
+      "rating": 4,
+      "comment": "قیمت نسبت به کیفیتش منطقی است.",
+      "date": "2026-09-23T13:16:01.570Z",
+      "id": 54
+    },
+    {
+      "productId": 25,
+      "reviewerName": "علی ر.",
+      "rating": 5,
+      "comment": "کیفیت خیلی خوب بود و بسته‌بندی سالم رسید.",
+      "date": "2026-09-16T13:16:01.570Z",
+      "id": 55
+    },
+    {
+      "productId": 26,
+      "reviewerName": "سارا م.",
+      "rating": 4,
+      "comment": "قیمت نسبت به کیفیتش منطقی است.",
+      "date": "2026-10-11T13:16:01.570Z",
+      "id": 56
+    },
+    {
+      "productId": 26,
+      "reviewerName": "رضا ک.",
+      "rating": 4,
+      "comment": "قیمت نسبت به کیفیتش منطقی است.",
+      "date": "2026-10-06T13:16:01.570Z",
+      "id": 57
+    },
+    {
+      "productId": 26,
+      "reviewerName": "علی ر.",
+      "rating": 4,
+      "comment": "بسته‌بندی ساده ولی محصول خوب است.",
+      "date": "2026-09-23T13:16:01.570Z",
+      "id": 58
+    },
+    {
+      "productId": 26,
+      "reviewerName": "مریم ح.",
+      "rating": 4,
+      "comment": "بسته‌بندی ساده ولی محصول خوب است.",
+      "date": "2026-09-18T13:16:01.570Z",
+      "id": 59
+    },
+    {
+      "productId": 27,
+      "reviewerName": "سارا م.",
+      "rating": 4,
+      "comment": "قیمت نسبت به کیفیتش منطقی است.",
+      "date": "2026-10-15T13:16:01.570Z",
+      "id": 60
+    },
+    {
+      "productId": 27,
+      "reviewerName": "امیر ن.",
+      "rating": 4,
+      "comment": "رایحه و بافتش را دوست داشتم.",
+      "date": "2026-10-03T13:16:01.570Z",
+      "id": 61
+    },
+    {
+      "productId": 27,
+      "reviewerName": "پویا ش.",
+      "rating": 5,
+      "comment": "کیفیت خیلی خوب بود و بسته‌بندی سالم رسید.",
+      "date": "2026-09-23T13:16:01.570Z",
+      "id": 62
+    },
+    {
+      "productId": 27,
+      "reviewerName": "الهام ز.",
+      "rating": 5,
+      "comment": "ارزش خرید دارد، دوباره تهیه می‌کنم.",
+      "date": "2026-09-16T13:16:01.570Z",
+      "id": 63
+    },
+    {
+      "productId": 28,
+      "reviewerName": "رضا ک.",
+      "rating": 4,
+      "comment": "بسته‌بندی ساده ولی محصول خوب است.",
+      "date": "2026-10-15T13:16:01.570Z",
+      "id": 64
+    },
+    {
+      "productId": 28,
+      "reviewerName": "مریم ح.",
+      "rating": 5,
+      "comment": "ارزش خرید دارد، دوباره تهیه می‌کنم.",
+      "date": "2026-10-04T13:16:01.570Z",
+      "id": 65
+    },
+    {
+      "productId": 29,
+      "reviewerName": "مریم ح.",
+      "rating": 5,
+      "comment": "مطابق توضیحات بود؛ برای مصرف روزمره عالیه.",
+      "date": "2026-10-14T13:16:01.570Z",
+      "id": 66
+    },
+    {
+      "productId": 29,
+      "reviewerName": "علی ر.",
+      "rating": 4,
+      "comment": "بد نبود، ولی انتظار کمی بیشتر داشتم.",
+      "date": "2026-10-06T13:16:01.570Z",
+      "id": 67
+    },
+    {
+      "productId": 29,
+      "reviewerName": "امیر ن.",
+      "rating": 5,
+      "comment": "مطابق توضیحات بود؛ برای مصرف روزمره عالیه.",
+      "date": "2026-09-25T13:16:01.570Z",
+      "id": 68
+    },
+    {
+      "productId": 29,
+      "reviewerName": "امیر ن.",
+      "rating": 5,
+      "comment": "کیفیت خیلی خوب بود و بسته‌بندی سالم رسید.",
+      "date": "2026-09-15T13:16:01.570Z",
+      "id": 69
+    },
+    {
+      "productId": 30,
+      "reviewerName": "نگار ا.",
+      "rating": 5,
+      "comment": "ارزش خرید دارد، دوباره تهیه می‌کنم.",
+      "date": "2026-10-12T13:16:01.570Z",
+      "id": 70
+    },
+    {
+      "productId": 30,
+      "reviewerName": "امیر ن.",
+      "rating": 5,
+      "comment": "ارزش خرید دارد، دوباره تهیه می‌کنم.",
+      "date": "2026-10-05T13:16:01.570Z",
+      "id": 71
+    },
+    {
+      "productId": 30,
+      "reviewerName": "سارا م.",
+      "rating": 5,
+      "comment": "ارزش خرید دارد، دوباره تهیه می‌کنم.",
+      "date": "2026-09-24T13:16:01.570Z",
+      "id": 72
+    },
+    {
+      "productId": 31,
+      "reviewerName": "رضا ک.",
+      "rating": 5,
+      "comment": "مطابق توضیحات بود؛ برای مصرف روزمره عالیه.",
+      "date": "2026-10-11T13:16:01.570Z",
+      "id": 73
+    },
+    {
+      "productId": 31,
+      "reviewerName": "سارا م.",
+      "rating": 5,
+      "comment": "مطابق توضیحات بود؛ برای مصرف روزمره عالیه.",
+      "date": "2026-10-06T13:16:01.570Z",
+      "id": 74
+    },
+    {
+      "productId": 32,
+      "reviewerName": "سارا م.",
+      "rating": 5,
+      "comment": "ارزش خرید دارد، دوباره تهیه می‌کنم.",
+      "date": "2026-10-14T13:16:01.570Z",
+      "id": 75
+    },
+    {
+      "productId": 32,
+      "reviewerName": "الهام ز.",
+      "rating": 4,
+      "comment": "رایحه و بافتش را دوست داشتم.",
+      "date": "2026-10-06T13:16:01.570Z",
+      "id": 76
+    },
+    {
+      "productId": 33,
+      "reviewerName": "پویا ش.",
+      "rating": 5,
+      "comment": "کیفیت خیلی خوب بود و بسته‌بندی سالم رسید.",
+      "date": "2026-10-15T13:16:01.570Z",
+      "id": 77
+    },
+    {
+      "productId": 33,
+      "reviewerName": "رضا ک.",
+      "rating": 5,
+      "comment": "ارزش خرید دارد، دوباره تهیه می‌کنم.",
+      "date": "2026-10-06T13:16:01.570Z",
+      "id": 78
+    },
+    {
+      "productId": 33,
+      "reviewerName": "رضا ک.",
+      "rating": 4,
+      "comment": "بسته‌بندی ساده ولی محصول خوب است.",
+      "date": "2026-09-26T13:16:01.570Z",
+      "id": 79
+    },
+    {
+      "productId": 33,
+      "reviewerName": "علی ر.",
+      "rating": 5,
+      "comment": "کیفیت خیلی خوب بود و بسته‌بندی سالم رسید.",
+      "date": "2026-09-17T13:16:01.570Z",
+      "id": 80
+    },
+    {
+      "productId": 34,
+      "reviewerName": "علی ر.",
+      "rating": 4,
+      "comment": "بد نبود، ولی انتظار کمی بیشتر داشتم.",
+      "date": "2026-10-14T13:16:01.570Z",
+      "id": 81
+    },
+    {
+      "productId": 34,
+      "reviewerName": "علی ر.",
+      "rating": 5,
+      "comment": "مطابق توضیحات بود؛ برای مصرف روزمره عالیه.",
+      "date": "2026-10-03T13:16:01.570Z",
+      "id": 82
+    },
+    {
+      "productId": 34,
+      "reviewerName": "نگار ا.",
+      "rating": 4,
+      "comment": "بسته‌بندی ساده ولی محصول خوب است.",
+      "date": "2026-09-26T13:16:01.570Z",
+      "id": 83
+    },
+    {
+      "productId": 36,
+      "reviewerName": "رضا ک.",
+      "rating": 4,
+      "comment": "رایحه و بافتش را دوست داشتم.",
+      "date": "2026-10-11T13:16:01.570Z",
+      "id": 84
+    },
+    {
+      "productId": 36,
+      "reviewerName": "نگار ا.",
+      "rating": 4,
+      "comment": "بسته‌بندی ساده ولی محصول خوب است.",
+      "date": "2026-10-04T13:16:01.570Z",
+      "id": 85
+    },
+    {
+      "productId": 37,
+      "reviewerName": "امیر ن.",
+      "rating": 5,
+      "comment": "کیفیت خیلی خوب بود و بسته‌بندی سالم رسید.",
+      "date": "2026-10-12T13:16:01.570Z",
+      "id": 86
+    },
+    {
+      "productId": 37,
+      "reviewerName": "رضا ک.",
+      "rating": 5,
+      "comment": "کیفیت خیلی خوب بود و بسته‌بندی سالم رسید.",
+      "date": "2026-10-04T13:16:01.570Z",
+      "id": 87
+    },
+    {
+      "productId": 37,
+      "reviewerName": "علی ر.",
+      "rating": 4,
+      "comment": "قیمت نسبت به کیفیتش منطقی است.",
+      "date": "2026-09-23T13:16:01.570Z",
+      "id": 88
+    },
+    {
+      "productId": 38,
+      "reviewerName": "الهام ز.",
+      "rating": 4,
+      "comment": "بسته‌بندی ساده ولی محصول خوب است.",
+      "date": "2026-10-14T13:16:01.570Z",
+      "id": 89
+    },
+    {
+      "productId": 38,
+      "reviewerName": "پویا ش.",
+      "rating": 4,
+      "comment": "بسته‌بندی ساده ولی محصول خوب است.",
+      "date": "2026-10-02T13:16:01.570Z",
+      "id": 90
+    },
+    {
+      "productId": 39,
+      "reviewerName": "سارا م.",
+      "rating": 5,
+      "comment": "ارزش خرید دارد، دوباره تهیه می‌کنم.",
+      "date": "2026-10-11T13:16:01.570Z",
+      "id": 91
+    },
+    {
+      "productId": 40,
+      "reviewerName": "مریم ح.",
+      "rating": 5,
+      "comment": "ارزش خرید دارد، دوباره تهیه می‌کنم.",
+      "date": "2026-10-14T13:16:01.570Z",
+      "id": 92
+    },
+    {
+      "productId": 40,
+      "reviewerName": "الهام ز.",
+      "rating": 4,
+      "comment": "رایحه و بافتش را دوست داشتم.",
+      "date": "2026-10-03T13:16:01.570Z",
+      "id": 93
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "image": "",
+      "createdAt": "2026-09-24T13:16:01.570Z",
+      "username": "admin",
+      "email": "admin@darooyar.ir",
+      "firstName": "مدیر",
+      "lastName": "سایت",
+      "phone": "09120000000",
+      "role": "admin",
+      "passwordHash": "sha256$f2ea708fba2a641b756208055b30e5e6$d1ff484a6ab898dbc30b00cc5bfc9f32d38fa0a71970a348feec23bb2789e88f"
+    },
+    {
+      "id": 2,
+      "image": "",
+      "createdAt": "2026-09-25T13:16:01.570Z",
+      "username": "customer",
+      "email": "customer@darooyar.ir",
+      "firstName": "مشتری",
+      "lastName": "نمونه",
+      "phone": "09350000000",
+      "role": "customer",
+      "passwordHash": "sha256$66051a2d1a7657abc1909e6c945cef2b$78c53e7c82b458505c2aaa726e01f389d781c016a167f896a5c2dcf9f8e61025"
+    },
+    {
+      "id": 3,
+      "image": "",
+      "createdAt": "2026-09-26T13:16:01.570Z",
+      "username": "sara.rad",
+      "email": "sara@example.com",
+      "firstName": "سارا",
+      "lastName": "راد",
+      "phone": "09121111111",
+      "role": "customer",
+      "passwordHash": "sha256$ebbfdbbf5b8fae79aee664e5b52ba528$3026a90d3bb7cc61fe43ace4c16b92772fd35a1d9057b09324247e43fd41d217"
+    },
+    {
+      "id": 4,
+      "image": "",
+      "createdAt": "2026-09-27T13:16:01.570Z",
+      "username": "ali.karimi",
+      "email": "ali@example.com",
+      "firstName": "علی",
+      "lastName": "کریمی",
+      "phone": "09122222222",
+      "role": "customer",
+      "passwordHash": "sha256$ebbfdbbf5b8fae79aee664e5b52ba528$3026a90d3bb7cc61fe43ace4c16b92772fd35a1d9057b09324247e43fd41d217"
+    },
+    {
+      "id": 5,
+      "image": "",
+      "createdAt": "2026-09-28T13:16:01.570Z",
+      "username": "maryam.h",
+      "email": "maryam@example.com",
+      "firstName": "مریم",
+      "lastName": "حسینی",
+      "phone": "09123333333",
+      "role": "customer",
+      "passwordHash": "sha256$ebbfdbbf5b8fae79aee664e5b52ba528$3026a90d3bb7cc61fe43ace4c16b92772fd35a1d9057b09324247e43fd41d217"
+    }
+  ],
+  "sessions": [],
+  "wishlists": [
+    {
+      "id": 1,
+      "userId": 2,
+      "productIds": [4, 23, 31]
+    }
+  ],
+  "orders": [
+    {
+      "id": "DR-A1B2C3D4",
+      "userId": 2,
+      "status": "delivered",
+      "createdAt": "2026-10-03T13:16:01.570Z",
+      "updatedAt": "2026-10-04T13:16:01.570Z",
+      "history": [
+        {
+          "status": "processing",
+          "at": "2026-10-03T13:16:01.570Z"
+        },
+        {
+          "status": "packed",
+          "at": "2026-10-03T21:16:01.570Z"
+        },
+        {
+          "status": "shipped",
+          "at": "2026-10-04T05:16:01.570Z"
+        },
+        {
+          "status": "delivered",
+          "at": "2026-10-04T13:16:01.570Z"
+        }
+      ],
+      "items": [
+        {
+          "productId": 1,
+          "title": "کرم مرطوب‌کننده آبرسان ۵۰ میلی‌لیتر",
+          "thumbnail": "/images/products/1-1.svg",
+          "category": "skin-care",
+          "price": 378000,
+          "basePrice": 420000,
+          "qty": 2
+        },
+        {
+          "productId": 9,
+          "title": "بالم لب نرم‌کننده SPF15",
+          "thumbnail": "/images/products/9-1.svg",
+          "category": "skin-care",
+          "price": 95000,
+          "basePrice": 95000,
+          "qty": 1
+        }
+      ],
+      "totals": {
+        "subtotal": 851000,
+        "savings": 84000,
+        "couponDiscount": 0,
+        "shipping": 85000,
+        "total": 936000,
+        "count": 3
+      },
+      "coupon": null,
+      "shippingMethod": {
+        "id": "standard",
+        "label": "پست پیشتاز",
+        "cost": 85000
+      },
+      "payment": "online",
+      "shipping": {
+        "fullName": "مشتری نمونه",
+        "phone": "09350000000",
+        "note": "",
+        "province": "تهران",
+        "city": "تهران",
+        "address": "خیابان نمونه، کوچهٔ آزمایشی، پلاک ۱۲، واحد ۳",
+        "postalCode": "1234567890"
+      },
+      "customer": "مشتری نمونه"
+    },
+    {
+      "id": "DR-A1B2E2C3",
+      "userId": 2,
+      "status": "shipped",
+      "createdAt": "2026-10-18T12:16:01.570Z",
+      "updatedAt": "2026-10-19T04:16:01.570Z",
+      "history": [
+        {
+          "status": "processing",
+          "at": "2026-10-18T12:16:01.570Z"
+        },
+        {
+          "status": "packed",
+          "at": "2026-10-18T20:16:01.570Z"
+        },
+        {
+          "status": "shipped",
+          "at": "2026-10-19T04:16:01.570Z"
+        }
+      ],
+      "items": [
+        {
+          "productId": 2,
+          "title": "ضدآفتاب SPF50 فاقد چربی ۵۰ میلی‌لیتر",
+          "thumbnail": "/images/products/2-1.svg",
+          "category": "skin-care",
+          "price": 553000,
+          "basePrice": 650000,
+          "qty": 1
+        },
+        {
+          "productId": 31,
+          "title": "عسل طبیعی چندگیاه ۵۰۰ گرم",
+          "thumbnail": "/images/products/31-1.svg",
+          "category": "groceries",
+          "price": 621000,
+          "basePrice": 690000,
+          "qty": 1
+        },
+        {
+          "productId": 12,
+          "title": "نرم‌کننده مو ابریشمی ۳۰۰ میلی‌لیتر",
+          "thumbnail": "/images/products/12-1.svg",
+          "category": "beauty",
+          "price": 230000,
+          "basePrice": 230000,
+          "qty": 2
+        }
+      ],
+      "totals": {
+        "subtotal": 1634000,
+        "savings": 166000,
+        "couponDiscount": 163400,
+        "shipping": 85000,
+        "total": 1555600,
+        "count": 4
+      },
+      "coupon": {
+        "code": "DAROO10",
+        "percent": 10
+      },
+      "shippingMethod": {
+        "id": "standard",
+        "label": "پست پیشتاز",
+        "cost": 85000
+      },
+      "payment": "cod",
+      "shipping": {
+        "fullName": "مشتری نمونه",
+        "phone": "09350000000",
+        "note": "",
+        "province": "اصفهان",
+        "city": "اصفهان",
+        "address": "میدان نمونه، خیابان فرضی، پلاک ۸۰",
+        "postalCode": "8123456789"
+      },
+      "customer": "مشتری نمونه"
+    },
+    {
+      "id": "DR-A1B301B2",
+      "userId": 2,
+      "status": "processing",
+      "createdAt": "2026-10-23T11:16:01.570Z",
+      "updatedAt": "2026-10-23T11:16:01.570Z",
+      "history": [
+        {
+          "status": "processing",
+          "at": "2026-10-23T11:16:01.570Z"
+        }
+      ],
+      "items": [
+        {
+          "productId": 23,
+          "title": "ادکلن زنانه رایحهٔ گلی-میوه‌ای ۱۰۰ میلی‌لیتر",
+          "thumbnail": "/images/products/23-1.svg",
+          "category": "fragrances",
+          "price": 1233000,
+          "basePrice": 1450000,
+          "qty": 1
+        }
+      ],
+      "totals": {
+        "subtotal": 1233000,
+        "savings": 217000,
+        "couponDiscount": 0,
+        "shipping": 180000,
+        "total": 1413000,
+        "count": 1
+      },
+      "coupon": null,
+      "shippingMethod": {
+        "id": "express",
+        "label": "پیک ویژه",
+        "cost": 180000
+      },
+      "payment": "online",
+      "shipping": {
+        "fullName": "مشتری نمونه",
+        "phone": "09350000000",
+        "note": "",
+        "province": "فارس",
+        "city": "شیراز",
+        "address": "بلوار نمونه، کوچهٔ ۴، ساختمان آزمایشی",
+        "postalCode": "7123456780"
+      },
+      "customer": "مشتری نمونه"
+    },
+    {
+      "id": "DR-A1B320A1",
+      "userId": 3,
+      "status": "delivered",
+      "createdAt": "2026-10-10T10:16:01.570Z",
+      "updatedAt": "2026-10-11T10:16:01.570Z",
+      "history": [
+        {
+          "status": "processing",
+          "at": "2026-10-10T10:16:01.570Z"
+        },
+        {
+          "status": "packed",
+          "at": "2026-10-10T18:16:01.570Z"
+        },
+        {
+          "status": "shipped",
+          "at": "2026-10-11T02:16:01.570Z"
+        },
+        {
+          "status": "delivered",
+          "at": "2026-10-11T10:16:01.570Z"
+        }
+      ],
+      "items": [
+        {
+          "productId": 4,
+          "title": "سرم ویتامین C روشن‌کننده ۳۰ میلی‌لیتر",
+          "thumbnail": "/images/products/4-1.svg",
+          "category": "skin-care",
+          "price": 784000,
+          "basePrice": 980000,
+          "qty": 1
+        },
+        {
+          "productId": 20,
+          "title": "دهان‌شویه بدون الکل ۵۰۰ میلی‌لیتر",
+          "thumbnail": "/images/products/20-1.svg",
+          "category": "beauty",
+          "price": 195000,
+          "basePrice": 195000,
+          "qty": 3
+        }
+      ],
+      "totals": {
+        "subtotal": 1369000,
+        "savings": 196000,
+        "couponDiscount": 205350,
+        "shipping": 85000,
+        "total": 1248650,
+        "count": 4
+      },
+      "coupon": {
+        "code": "SALAMAT15",
+        "percent": 15
+      },
+      "shippingMethod": {
+        "id": "standard",
+        "label": "پست پیشتاز",
+        "cost": 85000
+      },
+      "payment": "online",
+      "shipping": {
+        "fullName": "سارا راد",
+        "phone": "09121111111",
+        "note": "",
+        "province": "تهران",
+        "city": "تهران",
+        "address": "خیابان نمونه، کوچهٔ آزمایشی، پلاک ۱۲، واحد ۳",
+        "postalCode": "1234567890"
+      },
+      "customer": "سارا راد"
+    },
+    {
+      "id": "DR-A1B33F90",
+      "userId": 3,
+      "status": "canceled",
+      "createdAt": "2026-10-14T09:16:01.570Z",
+      "updatedAt": "2026-10-14T10:16:01.570Z",
+      "history": [
+        {
+          "status": "processing",
+          "at": "2026-10-14T09:16:01.570Z"
+        },
+        {
+          "status": "canceled",
+          "at": "2026-10-14T10:16:01.570Z"
+        }
+      ],
+      "items": [
+        {
+          "productId": 24,
+          "title": "ادکلن مردانه رایحهٔ چوبی-ادویه‌ای ۱۰۰ میلی‌لیتر",
+          "thumbnail": "/images/products/24-1.svg",
+          "category": "fragrances",
+          "price": 1485000,
+          "basePrice": 1650000,
+          "qty": 1
+        }
+      ],
+      "totals": {
+        "subtotal": 1485000,
+        "savings": 165000,
+        "couponDiscount": 0,
+        "shipping": 85000,
+        "total": 1570000,
+        "count": 1
+      },
+      "coupon": null,
+      "shippingMethod": {
+        "id": "standard",
+        "label": "پست پیشتاز",
+        "cost": 85000
+      },
+      "payment": "cod",
+      "shipping": {
+        "fullName": "سارا راد",
+        "phone": "09121111111",
+        "note": "",
+        "province": "اصفهان",
+        "city": "اصفهان",
+        "address": "میدان نمونه، خیابان فرضی، پلاک ۸۰",
+        "postalCode": "8123456789"
+      },
+      "customer": "سارا راد"
+    },
+    {
+      "id": "DR-A1B35E7F",
+      "userId": 4,
+      "status": "packed",
+      "createdAt": "2026-10-21T08:16:01.570Z",
+      "updatedAt": "2026-10-21T16:16:01.570Z",
+      "history": [
+        {
+          "status": "processing",
+          "at": "2026-10-21T08:16:01.570Z"
+        },
+        {
+          "status": "packed",
+          "at": "2026-10-21T16:16:01.570Z"
+        }
+      ],
+      "items": [
+        {
+          "productId": 13,
+          "title": "صابون مایع دست با عصاره آلوئه‌ورا ۵۰۰ میلی‌لیتر",
+          "thumbnail": "/images/products/13-1.svg",
+          "category": "beauty",
+          "price": 114000,
+          "basePrice": 120000,
+          "qty": 4
+        },
+        {
+          "productId": 15,
+          "title": "مسواک با برس نرم (بستهٔ ۳ عددی)",
+          "thumbnail": "/images/products/15-1.svg",
+          "category": "beauty",
+          "price": 94000,
+          "basePrice": 110000,
+          "qty": 2
+        },
+        {
+          "productId": 34,
+          "title": "مغز بادام خام ۲۵۰ گرم",
+          "thumbnail": "/images/products/34-1.svg",
+          "category": "groceries",
+          "price": 493000,
+          "basePrice": 560000,
+          "qty": 1
+        }
+      ],
+      "totals": {
+        "subtotal": 1137000,
+        "savings": 123000,
+        "couponDiscount": 0,
+        "shipping": 85000,
+        "total": 1222000,
+        "count": 7
+      },
+      "coupon": null,
+      "shippingMethod": {
+        "id": "standard",
+        "label": "پست پیشتاز",
+        "cost": 85000
+      },
+      "payment": "cod",
+      "shipping": {
+        "fullName": "علی کریمی",
+        "phone": "09122222222",
+        "note": "",
+        "province": "فارس",
+        "city": "شیراز",
+        "address": "بلوار نمونه، کوچهٔ ۴، ساختمان آزمایشی",
+        "postalCode": "7123456780"
+      },
+      "customer": "علی کریمی"
+    },
+    {
+      "id": "DR-A1B37D6E",
+      "userId": 5,
+      "status": "delivered",
+      "createdAt": "2026-09-26T07:16:01.570Z",
+      "updatedAt": "2026-09-27T07:16:01.570Z",
+      "history": [
+        {
+          "status": "processing",
+          "at": "2026-09-26T07:16:01.570Z"
+        },
+        {
+          "status": "packed",
+          "at": "2026-09-26T15:16:01.570Z"
+        },
+        {
+          "status": "shipped",
+          "at": "2026-09-26T23:16:01.570Z"
+        },
+        {
+          "status": "delivered",
+          "at": "2026-09-27T07:16:01.570Z"
+        }
+      ],
+      "items": [
+        {
+          "productId": 27,
+          "title": "روغن معطر طبیعی گل محمدی ۱۰ میلی‌لیتر",
+          "thumbnail": "/images/products/27-1.svg",
+          "category": "fragrances",
+          "price": 520000,
+          "basePrice": 520000,
+          "qty": 1
+        },
+        {
+          "productId": 31,
+          "title": "عسل طبیعی چندگیاه ۵۰۰ گرم",
+          "thumbnail": "/images/products/31-1.svg",
+          "category": "groceries",
+          "price": 621000,
+          "basePrice": 690000,
+          "qty": 2
+        }
+      ],
+      "totals": {
+        "subtotal": 1762000,
+        "savings": 138000,
+        "couponDiscount": 176200,
+        "shipping": 180000,
+        "total": 1765800,
+        "count": 3
+      },
+      "coupon": {
+        "code": "DAROO10",
+        "percent": 10
+      },
+      "shippingMethod": {
+        "id": "express",
+        "label": "پیک ویژه",
+        "cost": 180000
+      },
+      "payment": "online",
+      "shipping": {
+        "fullName": "مریم حسینی",
+        "phone": "09123333333",
+        "note": "",
+        "province": "تهران",
+        "city": "تهران",
+        "address": "خیابان نمونه، کوچهٔ آزمایشی، پلاک ۱۲، واحد ۳",
+        "postalCode": "1234567890"
+      },
+      "customer": "مریم حسینی"
+    },
+    {
+      "id": "DR-A1B39C5D",
+      "userId": 5,
+      "status": "processing",
+      "createdAt": "2026-10-24T06:16:01.570Z",
+      "updatedAt": "2026-10-24T06:16:01.570Z",
+      "history": [
+        {
+          "status": "processing",
+          "at": "2026-10-24T06:16:01.570Z"
+        }
+      ],
+      "items": [
+        {
+          "productId": 19,
+          "title": "ماسک مو کراتینه ۲۵۰ میلی‌لیتر",
+          "thumbnail": "/images/products/19-1.svg",
+          "category": "beauty",
+          "price": 384000,
+          "basePrice": 480000,
+          "qty": 1
+        },
+        {
+          "productId": 11,
+          "title": "شامپو ضدشوره ۳۵۰ میلی‌لیتر",
+          "thumbnail": "/images/products/11-1.svg",
+          "category": "beauty",
+          "price": 234000,
+          "basePrice": 260000,
+          "qty": 1
+        }
+      ],
+      "totals": {
+        "subtotal": 618000,
+        "savings": 122000,
+        "couponDiscount": 0,
+        "shipping": 85000,
+        "total": 703000,
+        "count": 2
+      },
+      "coupon": null,
+      "shippingMethod": {
+        "id": "standard",
+        "label": "پست پیشتاز",
+        "cost": 85000
+      },
+      "payment": "online",
+      "shipping": {
+        "fullName": "مریم حسینی",
+        "phone": "09123333333",
+        "note": "",
+        "province": "اصفهان",
+        "city": "اصفهان",
+        "address": "میدان نمونه، خیابان فرضی، پلاک ۸۰",
+        "postalCode": "8123456789"
+      },
+      "customer": "مریم حسینی"
+    }
+  ],
+  "shippingMethods": [
+    {
+      "id": "standard",
+      "label": "پست پیشتاز",
+      "description": "تحویل در ۳ تا ۵ روز کاری",
+      "cost": 85000,
+      "freeFrom": 2000000
+    },
+    {
+      "id": "express",
+      "label": "پیک ویژه",
+      "description": "تحویل در همان روز یا روز بعد (شهرهای بزرگ)",
+      "cost": 180000,
+      "freeFrom": null
+    }
+  ],
+  "coupons": [
+    {
+      "id": 1,
+      "code": "DAROO10",
+      "percent": 10,
+      "label": "۱۰٪ تخفیف ویژه مشتریان",
+      "active": true
+    },
+    {
+      "id": 2,
+      "code": "SALAMAT15",
+      "percent": 15,
+      "label": "۱۵٪ تخفیف هفتهٔ سلامت",
+      "active": true
+    }
+  ],
+  "articles": [
+    {
+      "id": 1,
+      "slug": "sunscreen-guide",
+      "title": "راهنمای انتخاب ضدآفتاب مناسب پوست",
+      "excerpt": "SPF و PA یعنی چه؟ برای پوست چرب، خشک و حساس چه ضدآفتابی بخریم و چطور مصرف کنیم؟",
+      "category": "مراقبت پوست",
+      "author": "نیلوفر رضایی",
+      "role": "نویسندهٔ نمونه",
+      "date": "2026-09-28",
+      "readTime": 5,
+      "tone": 0,
+      "icon": "Sun",
+      "references": [
+        {
+          "label": "سازمان غذا و داروی آمریکا (FDA) — راهنمای ضدآفتاب",
+          "url": "https://www.fda.gov/drugs/understanding-over-counter-medicines/sunscreen-how-help-protect-your-skin-sun"
+        }
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "ضدآفتاب مهم‌ترین محصول پیشگیری از آسیب‌های ناشی از اشعهٔ فرابنفش و پیری زودرس پوست است؛ اما انتخاب آن میان این‌همه گزینه گاهی گیج‌کننده می‌شود."
+        },
+        {
+          "type": "h2",
+          "text": "SPF و PA یعنی چه؟"
+        },
+        {
+          "type": "p",
+          "text": "SPF میزان محافظت در برابر پرتوهای UVB (عامل اصلی آفتاب‌سوختگی) را نشان می‌دهد و PA با علامت + تا ++++ محافظت در برابر UVA را مشخص می‌کند. برای استفادهٔ روزانه معمولاً SPF بین ۳۰ تا ۵۰ با برچسب «وسیع‌طیف» مناسب است."
+        },
+        {
+          "type": "h2",
+          "text": "چطور و چقدر مصرف کنیم؟"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "۱۵ تا ۲۰ دقیقه پیش از خروج از خانه بمالید.",
+            "برای صورت و گردن حدود دو انگشت (یک‌چهارم قاشق چای‌خوری) کافی است.",
+            "هر ۲ تا ۳ ساعت در معرض نور مستقیم و پس از شنا یا تعریق زیاد تجدید کنید.",
+            "در روزهای ابری و داخل خودرو هم از آن غافل نشوید."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "برای پوست چرب فرمول‌های ژلی و سبک و برای پوست خشک فرمول‌های کرمی و مرطوب‌کننده‌دار مناسب‌ترند. اگر پوست حساس یا مستعد جوش دارید، پیش از خرید از داروساز یا متخصص پوست مشورت بگیرید."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "slug": "vitamin-d",
+      "title": "ویتامین D؛ چرا کمبود آن این‌قدر شایع است؟",
+      "excerpt": "نقش ویتامین D در استخوان و ایمنی بدن، گروه‌های پرخطر و نکته‌هایی دربارهٔ مکمل‌ها.",
+      "category": "تغذیه و مکمل",
+      "author": "امیر کاظمی",
+      "role": "نویسندهٔ نمونه",
+      "date": "2026-09-15",
+      "readTime": 4,
+      "tone": 1,
+      "icon": "Pill",
+      "references": [
+        {
+          "label": "مؤسسه ملی سلامت آمریکا (NIH) — اطلاعات ویتامین D",
+          "url": "https://ods.od.nih.gov/factsheets/VitaminD-HealthProfessional/"
+        }
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "ویتامین D در جذب کلسیم، سلامت استخوان‌ها و عملکرد ماهیچه‌ها و سیستم ایمنی نقش دارد. بدن بخش عمدهٔ آن را با کمک نور خورشید می‌سازد؛ بنابراین کار در محیط بسته، پوشش زیاد و استفادهٔ مداوم از ضدآفتاب می‌تواند میزان آن را کاهش دهد."
+        },
+        {
+          "type": "h2",
+          "text": "چه کسانی بیشتر در معرض کمبود هستند؟"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "افرادی که کمتر در معرض نور مستقیم خورشید قرار می‌گیرند",
+            "سالمندان و افراد با پوست تیره‌تر",
+            "بانوان باردار و شیرده",
+            "افراد دارای برخی بیماری‌های گوارشی یا کلیوی"
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "منابع غذایی"
+        },
+        {
+          "type": "p",
+          "text": "ماهی‌های چرب مانند سالمون و ساردین، زردهٔ تخم‌مرغ و لبنیات غنی‌شده از منابع غذایی ویتامین D هستند."
+        },
+        {
+          "type": "p",
+          "text": "نکتهٔ مهم: دوز مناسب مکمل را آزمایش خون و پزشک تعیین می‌کند. مصرف بیش از حد ویتامین D هم می‌تواند مضر باشد؛ بنابراین بدون مشورت، دوز بالا مصرف نکنید."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "slug": "first-aid-kit",
+      "title": "جعبهٔ کمک‌های اولیهٔ خانگی؛ چه چیزهایی لازم داریم؟",
+      "excerpt": "فهرست ساده‌ای از وسایلی که هر خانه باید برای شرایط اضطراری و حوادث کوچک داشته باشد.",
+      "category": "کمک‌های اولیه",
+      "author": "مریم صادقی",
+      "role": "نویسندهٔ نمونه",
+      "date": "2026-08-30",
+      "readTime": 3,
+      "tone": 2,
+      "icon": "Stethoscope",
+      "references": [
+        {
+          "label": "صلیب سرخ آمریکا — محتویات جعبه کمک‌های اولیه",
+          "url": "https://www.redcross.org/get-help/how-to-prepare-for-emergencies/anatomy-of-a-first-aid-kit.html"
+        }
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "بریدگی کوچک، سوختگی خفیف یا تب ناگهانی در هر خانه‌ای پیش می‌آید. داشتن یک جعبهٔ مرتب و در دسترس به شما کمک می‌کند در لحظهٔ نیاز آرام‌تر و سریع‌تر تصمیم بگیرید."
+        },
+        {
+          "type": "h2",
+          "text": "وسایل پیشنهادی"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "چسب زخم و گاز استریل در اندازه‌های مختلف",
+            "محلول ضدعفونی‌کننده و پنبه",
+            "باند کشی و چسب نواری",
+            "قیچی و پنس کوچک",
+            "دماسنج دیجیتال",
+            "دستکش یک‌بارمصرف",
+            "مسکن و تب‌بر مناسب (طبق توصیهٔ پزشک یا داروساز)",
+            "کرم سوختگی و پمادهای موضعی عمومی"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "هر شش ماه یک‌بار تاریخ انقضای داروها و محلول‌ها را بررسی کنید و جعبه را دور از دسترس کودکان و نور مستقیم نگه دارید. در حوادث جدی بلافاصله با اورژانس ۱۱۵ تماس بگیرید."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "slug": "sleep-hygiene",
+      "title": "۷ عادت ساده برای خواب باکیفیت‌تر",
+      "excerpt": "بدون دارو و با تغییرهای کوچک در سبک زندگی، شب‌ها راحت‌تر بخوابید.",
+      "category": "سبک زندگی",
+      "author": "سارا احمدی",
+      "role": "نویسندهٔ نمونه",
+      "date": "2026-08-12",
+      "readTime": 4,
+      "tone": 3,
+      "icon": "Moon",
+      "references": [
+        {
+          "label": "مؤسسه ملی قلب، ریه و خون آمریکا — خواب و سلامت",
+          "url": "https://www.nhlbi.nih.gov/health/sleep-deprivation"
+        }
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "خواب کافی و باکیفیت یکی از پایه‌های سلامت جسم و روان است. خبر خوب این است که با رعایت چند عادت ساده می‌توان کیفیت خواب را بهبود داد."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "ساعت خواب و بیداری را (حتی در تعطیلات) تا حد امکان ثابت نگه دارید.",
+            "یک ساعت پیش از خواب نور صفحه‌های دیجیتال را کم کنید.",
+            "کافئین را بعد از ظهر کنار بگذارید.",
+            "اتاق خواب را خنک، تاریک و آرام نگه دارید.",
+            "ورزش منظم داشته باشید؛ اما نزدیک زمان خواب فعالیت سنگین نکنید.",
+            "شام سبک بخورید و از غذاهای سنگین در شب پرهیز کنید.",
+            "یک آیین آرام‌کننده مثل مطالعه یا دوش گرم برای خود بسازید."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "اگر بی‌خوابی بیش از چند هفته ادامه پیدا کرد یا در طول روز خواب‌آلودگی شدید دارید، حتماً با پزشک مشورت کنید."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "slug": "antibiotic-misuse",
+      "title": "چرا مصرف خودسرانهٔ آنتی‌بیوتیک خطرناک است؟",
+      "excerpt": "آنتی‌بیوتیک روی سرماخوردگی اثر ندارد؛ مقاومت دارویی چیست و چطور از آن پیشگیری کنیم؟",
+      "category": "مصرف صحیح دارو",
+      "author": "امیر کاظمی",
+      "role": "نویسندهٔ نمونه",
+      "date": "2026-07-25",
+      "readTime": 5,
+      "tone": 1,
+      "icon": "ShieldCheck",
+      "references": [
+        {
+          "label": "سازمان جهانی بهداشت — مقاومت ضدمیکروبی",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/antimicrobial-resistance"
+        }
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "آنتی‌بیوتیک‌ها فقط علیه عفونت‌های باکتریایی مؤثرند و روی بیماری‌های ویروسی مانند سرماخوردگی و آنفلوآنزا اثری ندارند. مصرف بی‌مورد آن‌ها فقط عوارض جانبی دارد و به مقاومت دارویی کمک می‌کند."
+        },
+        {
+          "type": "h2",
+          "text": "مقاومت آنتی‌بیوتیکی یعنی چه؟"
+        },
+        {
+          "type": "p",
+          "text": "وقتی باکتری‌ها بارها در معرض آنتی‌بیوتیک قرار می‌گیرند، برخی از آن‌ها یاد می‌گیرند در برابر دارو مقاوم شوند. در نتیجه عفونت‌هایی که پیش‌تر به‌راحتی درمان می‌شدند، سخت‌تر و پرهزینه‌تر می‌شوند."
+        },
+        {
+          "type": "h2",
+          "text": "چه کار کنیم؟"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "فقط با تجویز پزشک آنتی‌بیوتیک مصرف کنید.",
+            "دورهٔ درمان را کامل کنید، حتی اگر زودتر حالتان بهتر شد.",
+            "داروی باقی‌ماندهٔ خود را به دیگران ندهید.",
+            "در صورت بروز تهوع شدید، کهیر یا تنگی نفس فوراً به پزشک مراجعه کنید."
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "slug": "winter-skin",
+      "title": "مراقبت از پوست در فصل سرما",
+      "excerpt": "خشکی، پوسته‌پوسته شدن و تیرگی لب؛ راهکارهای ساده برای پوستی نرم در پاییز و زمستان.",
+      "category": "مراقبت پوست",
+      "author": "نیلوفر رضایی",
+      "role": "نویسندهٔ نمونه",
+      "date": "2026-07-04",
+      "readTime": 4,
+      "tone": 2,
+      "icon": "Snowflake",
+      "references": [
+        {
+          "label": "آکادمی پوست آمریکا — راهنمای مراقبت از پوست خشک",
+          "url": "https://www.aad.org/public/everyday-care/skin-care-basics/dry/dermatologists-tips-relieve-dry-skin"
+        }
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "هوای سرد و خشک و گرمایش محیط، رطوبت پوست را کاهش می‌دهد و باعث خشکی، خارش و پوسته‌پوسته شدن می‌شود. با چند تغییر کوچک می‌توانید پوست را شاداب نگه دارید."
+        },
+        {
+          "type": "ul",
+          "items": [
+            "با آب ولرم (نه داغ) دوش بگیرید.",
+            "تا سه دقیقه پس از حمام، مرطوب‌کننده را روی پوست کمی نمناک بمالید.",
+            "از شوینده‌های ملایم و بدون عطر قوی استفاده کنید.",
+            "از بالم لب و کرم دست در طول روز کمک بگیرید.",
+            "ضدآفتاب را در زمستان هم فراموش نکنید.",
+            "در صورت امکان از دستگاه بخور یا مرطوب‌کنندهٔ هوا استفاده کنید."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "اگر قرمزی، ترک‌های عمیق یا خارش شدید ادامه پیدا کرد، برای بررسی دقیق‌تر با پزشک یا داروساز مشورت کنید."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "slug": "hydration",
+      "title": "آب بنوشیم؛ اما چقدر؟",
+      "excerpt": "قانون «هشت لیوان در روز» تا چه اندازه درست است و نشانه‌های کم‌آبی بدن کدام‌اند؟",
+      "category": "سبک زندگی",
+      "author": "مریم صادقی",
+      "role": "نویسندهٔ نمونه",
+      "date": "2026-06-18",
+      "readTime": 3,
+      "tone": 0,
+      "icon": "Droplets",
+      "references": [
+        {
+          "label": "سرویس سلامت ملی بریتانیا (NHS) — آب و آبرسانی",
+          "url": "https://www.nhs.uk/live-well/eat-well/food-guidelines-and-food-labels/water-drinks-nutrition/"
+        }
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "نیاز بدن به آب به سن، میزان فعالیت، آب‌وهوا و رژیم غذایی بستگی دارد. قانون کلی هشت لیوان در روز یک راهنمای ساده است، نه یک قانون دقیق برای همه."
+        },
+        {
+          "type": "h2",
+          "text": "نشانه‌های یک آبرسانی خوب"
+        },
+        {
+          "type": "ul",
+          "items": ["رنگ ادرار زرد روشن", "نداشتن تشنگی شدید در طول روز", "نبودن سردرد و خشکی دهان ناشی از کم‌آبی"]
+        },
+        {
+          "type": "p",
+          "text": "میوه‌ها، سبزی‌ها، سوپ و دمنوش‌ها هم بخشی از آب مورد نیاز را تأمین می‌کنند. در هوای گرم، هنگام ورزش یا بیماری‌هایی مثل اسهال و تب، نیاز به مایعات بیشتر می‌شود. افرادی که بیماری قلبی یا کلیوی دارند باید میزان مایعات را با پزشک خود هماهنگ کنند."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "slug": "hand-hygiene",
+      "title": "شستن درست دست‌ها؛ ساده‌ترین مراقبت پیشگیرانه",
+      "excerpt": "مراحل صحیح شستن دست‌ها و زمانی که ضدعفونی‌کننده می‌تواند جایگزین آب و صابون شود.",
+      "category": "پیشگیری",
+      "author": "سارا احمدی",
+      "role": "نویسندهٔ نمونه",
+      "date": "2026-05-29",
+      "readTime": 3,
+      "tone": 3,
+      "icon": "Leaf",
+      "references": [
+        {
+          "label": "مرکز کنترل و پیشگیری بیماری‌های آمریکا (CDC) — شستن دست‌ها",
+          "url": "https://www.cdc.gov/clean-hands/about/"
+        }
+      ],
+      "content": [
+        {
+          "type": "p",
+          "text": "شستن منظم دست‌ها یکی از مؤثرترین راه‌ها برای کاهش انتقال بسیاری از بیماری‌های عفونی است؛ به شرط آن‌که درست انجام شود."
+        },
+        {
+          "type": "h2",
+          "text": "مراحل درست"
+        },
+        {
+          "type": "ul",
+          "items": [
+            "دست‌ها را با آب تمیز خیس کنید و صابون بزنید.",
+            "کف، پشت دست، لای انگشتان و زیر ناخن‌ها را دست‌کم ۲۰ ثانیه بشویید.",
+            "خوب آب بکشید و با دستمال تمیز یا یک‌بارمصرف خشک کنید."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "اگر به آب و صابون دسترسی ندارید، ضدعفونی‌کنندهٔ دست با حداقل ۶۰ درصد الکل می‌تواند جایگزین موقت باشد؛ اما وقتی دست‌ها آشکارا کثیف یا چرب‌اند، شستن با آب و صابون ارجح است."
+        }
+      ]
+    }
+  ],
+  "messages": [],
+  "subscribers": []
+}

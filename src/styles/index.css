@@ -1,0 +1,287 @@
+@import 'tailwindcss';
+@import 'swiper/css' layer(components);
+@import 'swiper/css/effect-fade' layer(components);
+@import 'swiper/css/pagination' layer(components);
+@import 'swiper/css/free-mode' layer(components);
+@import 'swiper/css/thumbs' layer(components);
+@import 'swiper/css/zoom' layer(components);
+
+@theme {
+  --font-sans: 'Vazirmatn Variable', 'Vazirmatn', Tahoma, system-ui, sans-serif;
+
+  --color-bg: #f4faf9;
+  --color-bg-2: #eaf5f3;
+  --color-surface: #ffffff;
+  --color-ink: #0e2a2f;
+  --color-ink-2: #274349;
+  --color-muted: #4f686c;
+  --color-line: #dcebe9;
+
+  --color-primary: #0b8576;
+  --color-primary-600: #096a5f;
+  --color-primary-700: #07564d;
+  --color-primary-100: #c8ece6;
+  --color-primary-50: #e8f7f4;
+
+  --color-accent: #c9461f;
+  --color-accent-600: #b53b17;
+  --color-accent-50: #fff1ec;
+
+  --color-gold: #f4b73f;
+  --color-danger: #c93438;
+  --color-danger-50: #fdecec;
+  --color-success: #17825a;
+  --color-success-50: #e6f8f0;
+  --color-warn: #9a6400;
+  --color-warn-50: #fff6e0;
+  --color-info: #2563eb;
+  --color-info-50: #e9f1ff;
+  --color-indigo: #5b5fe0;
+  --color-indigo-50: #eeefff;
+
+  --radius-sm: 10px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-xl: 32px;
+
+  --shadow-sm: 0 1px 2px rgba(14, 42, 47, 0.05), 0 2px 10px rgba(14, 42, 47, 0.05);
+  --shadow-md: 0 10px 34px rgba(14, 42, 47, 0.09);
+  --shadow-lg: 0 28px 70px rgba(9, 106, 95, 0.22);
+
+  --ease-brand: cubic-bezier(0.22, 0.8, 0.3, 1);
+
+  --header-h: 72px;
+  --container-site: 1280px;
+
+  --animate-page-in: page-in 0.5s var(--ease-brand) both;
+  --animate-spin-fast: spin-fast 0.7s linear infinite;
+  --animate-spin-slow: spin-fast 3s linear infinite;
+  --animate-floaty: floaty 6s ease-in-out infinite;
+  --animate-floaty-reverse: floaty 6s ease-in-out infinite reverse;
+  --animate-floaty-5: floaty 5s ease-in-out infinite;
+  --animate-ripple: ripple 2.6s ease-out infinite;
+  --animate-shimmer: shimmer 1.5s linear infinite;
+  --animate-bl-capsule: bl-capsule 1.5s ease-in-out infinite;
+  --animate-bl-cross: bl-cross 1.3s ease-in-out infinite;
+  --animate-bl-drop: bl-drop 0.9s ease-in-out infinite;
+  --animate-bl-bar: bl-bar 1s ease-in-out infinite;
+  --animate-bl-pulse: bl-pulse 1.6s ease-in-out infinite;
+
+  --select-arrow: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%235f777b' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
+
+  @keyframes page-in {
+    from {
+      opacity: 0;
+      transform: translateY(14px);
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+  @keyframes spin-fast {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  @keyframes floaty {
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-14px);
+    }
+  }
+  @keyframes ripple {
+    from {
+      transform: scale(0.6);
+      opacity: 0.6;
+    }
+    to {
+      transform: scale(1.7);
+      opacity: 0;
+    }
+  }
+  @keyframes shimmer {
+    from {
+      background-position: 100% 0;
+    }
+    to {
+      background-position: -100% 0;
+    }
+  }
+  @keyframes bl-capsule {
+    0% {
+      transform: rotate(0) scale(1);
+    }
+    50% {
+      transform: rotate(180deg) scale(1.15);
+    }
+    100% {
+      transform: rotate(360deg) scale(1);
+    }
+  }
+  @keyframes bl-cross {
+    0%,
+    100% {
+      transform: scale(0.88) rotate(0);
+    }
+    50% {
+      transform: scale(1.08) rotate(90deg);
+    }
+  }
+  @keyframes bl-drop {
+    0%,
+    100% {
+      transform: translateY(0) scaleY(1);
+    }
+    50% {
+      transform: translateY(-12px) scaleY(1.15);
+    }
+  }
+  @keyframes bl-bar {
+    0%,
+    100% {
+      transform: scaleY(0.3);
+    }
+    50% {
+      transform: scaleY(1);
+    }
+  }
+  @keyframes bl-pulse {
+    0% {
+      stroke-dashoffset: 160;
+    }
+    60%,
+    100% {
+      stroke-dashoffset: 0;
+    }
+  }
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    min-height: 100vh;
+    font-family: var(--font-sans);
+    font-size: 15px;
+    line-height: 1.75;
+    color: var(--color-ink);
+    background: var(--color-bg);
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+  }
+
+  img,
+  svg {
+    display: block;
+    max-width: 100%;
+    vertical-align: baseline;
+  }
+
+  button,
+  input,
+  select,
+  textarea {
+    letter-spacing: normal;
+  }
+
+  input[type='checkbox'] {
+    margin: 3px 3px 3px 4px;
+  }
+
+  input[type='radio'] {
+    margin: 3px 3px 0 5px;
+  }
+
+  input[type='range'] {
+    margin: 2px;
+    background-color: #fff;
+  }
+
+  option {
+    padding: 0 2px 1px;
+  }
+
+  select:disabled {
+    opacity: 0.7;
+  }
+
+  small {
+    font-size: smaller;
+  }
+
+  button {
+    cursor: pointer;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+  h2 {
+    font-size: 1.5em;
+  }
+  h3 {
+    font-size: 1.17em;
+  }
+  h5 {
+    font-size: 0.83em;
+  }
+  h6 {
+    font-size: 0.67em;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    line-height: 1.4;
+    font-weight: 800;
+    letter-spacing: -0.2px;
+  }
+
+  :focus-visible {
+    outline: 3px solid color-mix(in srgb, var(--color-primary) 50%, transparent);
+    outline-offset: 2px;
+    border-radius: 6px;
+  }
+
+  ::selection {
+    background: var(--color-primary-100);
+  }
+
+  #main:focus {
+    outline: none;
+  }
+}
+
+@utility site-container {
+  width: min(100% - 32px, var(--container-site));
+  margin-inline: auto;
+}
+
+@utility section-y {
+  padding-block: clamp(40px, 7vw, 88px);
+}
+
+@media (max-width: 640px) {
+  :root {
+    --header-h: 64px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
